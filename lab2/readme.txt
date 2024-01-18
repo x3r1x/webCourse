@@ -1,2 +1,2 @@
 lab2
-My first impressions of HTML in Infotech :)
+My first steps in HTML in Infotech :)
