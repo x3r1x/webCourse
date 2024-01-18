@@ -1,3 +1,3 @@
 Nothing in here :)
-My name is ÃËÅÁ ĞÛÆÎÂ
-I study in 10 ÊËÀÑÑ
+My name is Ğ“Ğ›Ğ•Ğ‘ Ğ Ğ«Ğ–ĞĞ’
+I study in 10 ĞšĞ›ĞĞ¡Ğ¡
