@@ -1,6 +1,20 @@
+/*
+
+
+    ОБЩЕЕ
+
+
+*/
+
 /*Заголовки сайтов*/
 header {
     background-image: url(images/style/header-image.jpg)
+}
+
+
+/*Конец страницы сайтов*/
+footer {
+    background-image: url(images/style/footer-image.jpg);
 }
 
 /*Текст "Escape"*/
@@ -19,33 +33,17 @@ header {
     font-style: Oxygen;
 }
 
-/*Кнопки выхода возле текста "Escape" сверху в the-road-ahead*/
-.escape_text_2{
-    color: black;
-    font-size: 26px;
-    font-weight: 400;
-    font-style: Lora;
-}
+/* 
 
-/*Кнопки выхода возле текста "Escape" сверу в the-road-ahead*/
-.escape_button_2 {
-    color: black;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
+
+    INDEX
+
+
+*/
 
 /*Заголовок в index.html*/
 .header_index {
     color: white;
-    font-size: 50px;
-    font-weight: 400;
-    font-style: Lora;
-}
-
-/*Заголовок к the-road-ahead.html*/
-.header_the-road-ahead {
-    color:black;
     font-size: 50px;
     font-weight: 400;
     font-style: Lora;
@@ -57,6 +55,50 @@ header {
     font-size: 17px;
     font-weight: 400;
     font-style: Oxygen;
+}
+
+/*Кнопка "View latest posts"*/
+.button {
+    background-color: #DD783F;
+    border: none;
+    padding: 44px 167px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: Oxygen;
+}
+
+/*Ссылки под картинкой-заголовком*/
+.underheader_hrefs {
+    color: #768088;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Lora;
+}
+
+/*
+
+
+    THE ROAD AHEAD
+
+
+*/
+
+/*Кнопки выхода возле текста "Escape" сверу в the-road-ahead*/
+.escape_button_2 {
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: Oxygen;
+}
+
+/*Заголовок к the-road-ahead.html*/
+.header_the-road-ahead {
+    color:black;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: Lora;
 }
 
 /*Подзаголовочный текст в the-road-ahead.html*/
@@ -73,9 +115,4 @@ header {
     font-size: 24px;
     font-weight: 400;
     font-style: Oxygen;
-}
-
-/*Конец страницы сайтов*/
-footer {
-    background-image: url(images/style/footer-image.jpg);
 }
