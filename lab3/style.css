@@ -6,33 +6,6 @@
 
 */
 
-/*Заголовки сайтов*/
-header {
-    background-image: url(images/style/header-image.jpg)
-}
-
-
-/*Конец страницы сайтов*/
-footer {
-    background-image: url(images/style/footer-image.jpg);
-}
-
-/*Текст "Escape"*/
-.escape_text {
-    color: white;
-    font-size: 26px;
-    font-weight: 400;
-    font-style: Lora;
-}
-
-/*Кнопки выхода возле текста "Escape"*/
-.escape_button {
-    color: white;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
-
 /* 
 
 
@@ -41,42 +14,6 @@ footer {
 
 */
 
-/*Заголовок в index.html*/
-.header_index {
-    color: white;
-    font-size: 50px;
-    font-weight: 400;
-    font-style: Lora;
-}
-
-/*Подзаголовочный текст в index.html*/
-.underheader_text_index {
-    color: white;
-    font-size: 17px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
-
-/*Кнопка "View latest posts"*/
-.button {
-    background-color: #DD783F;
-    border: none;
-    padding: 44px 167px;
-    border-radius: 10px;
-    color: white;
-    font-size: 13px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
-
-/*Ссылки под картинкой-заголовком*/
-.underheader_hrefs {
-    color: #768088;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: Lora;
-}
-
 /*
 
 
@@ -84,35 +21,3 @@ footer {
 
 
 */
-
-/*Кнопки выхода возле текста "Escape" сверу в the-road-ahead*/
-.escape_button_2 {
-    color: black;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
-
-/*Заголовок к the-road-ahead.html*/
-.header_the-road-ahead {
-    color:black;
-    font-size: 50px;
-    font-weight: 400;
-    font-style: Lora;
-}
-
-/*Подзаголовочный текст в the-road-ahead.html*/
-.underheader_text_the-road-ahead {
-    color: black;
-    font-size: 17px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
-
-/*Основной текст в the-road-ahead.html*/
-.main_text {
-    color: #101315;
-    font-size: 24px;
-    font-weight: 400;
-    font-style: Oxygen;
-}
