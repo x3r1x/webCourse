@@ -1,3 +1,5 @@
+
+
 /*
 
 
@@ -6,6 +8,27 @@
 
 */
 
+/*Заголовок*/
+header {
+    background-image: url(images/style/header-image.jpg);
+    color: #FFFFFF;
+}
+
+header h3 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+header nav a{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+
 /* 
 
 
@@ -13,6 +36,56 @@
 
 
 */
+
+/*Заголовок для страницы*/
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+header div p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+}
+
+header div button {
+    background-color: #DD783F;
+    border: none;
+    padding: 44px 167px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+}
+
+/*Для ссылок под заголовком*/
+.innav a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    text-decoration: none;
+}
+
+/*Для Featured posts*/
+.one{
+    background-image: url(images/index/p1.png);
+}
+
+.fp h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    border-bottom: 1px solid #DEDEDE;
+}
+.fp article h3 {
+    font-size: 27px;
+    font-weight: 400px;
+    font-family: "Lora", serif;
+}
+
 
 /*
 
