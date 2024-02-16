@@ -74,6 +74,13 @@ header div button {
     background-image: url(images/index/p1.png);
 }
 
+.one p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
 .fp h2 {
     font-size: 20px;
     font-weight: 400;
@@ -84,6 +91,7 @@ header div button {
     font-size: 27px;
     font-weight: 400px;
     font-family: "Lora", serif;
+    color: #FFFFFF;
 }
 
 
