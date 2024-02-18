@@ -8,7 +8,7 @@
 
 */
 
-/*Заголовок*/
+/*  Заголовок  */
 header {
     background-image: url(images/style/header-image.jpg);
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ footer nav a{
 
 */
 
-/*Заголовок для страницы*/
+/*  Заголовок для страницы  */
 header h1 {
     font-size: 50px;
     font-weight: 400;
@@ -81,7 +81,7 @@ header div button {
     font-family: "Oxygen", sans-serif;
 }
 
-/*Для ссылок под заголовком*/
+/*  Для ссылок под заголовком  */
 .innav a{
     font-size: 14px;
     font-weight: 400;
@@ -89,14 +89,14 @@ header div button {
     text-decoration: none;
 }
 
-/*Для Featured posts*/
+/*  Для Featured posts  */
 .fp h2 {
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
-    display: inline;
+    display: inline-flex;
 }
 .fp article h3 {
     font-size: 27px;
@@ -132,14 +132,14 @@ header div button {
     display: inline;
 }
 
-/*Для Recent*/
+/*  Для Recent  */
 .rec h2{
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
-    display: inline;
+    display: inline-flex;
 }
 
 .rec article h3{
@@ -175,3 +175,36 @@ header div button {
 
 
 */
+
+/*  Header  */
+.tra {
+    background-image: none;
+}
+.tra h3 {
+    color: #2E2E2E;
+}
+.tra nav a{
+    color: #2E2E2E;
+}
+
+/*  Заголовок  */
+.header h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Lora", serif;
+}
+
+.header p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400px;
+    color: #101315;
+    font-family: "Oxygen", sans-serif;
+}
