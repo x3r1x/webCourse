@@ -11,6 +11,7 @@
 /*Заголовок*/
 header {
     background-image: url(images/style/header-image.jpg);
+    background-repeat: no-repeat;
     color: #FFFFFF;
 }
 
@@ -28,6 +29,25 @@ header nav a{
     text-decoration: none;
 }
 
+footer {
+    background-image: url(images/style/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+
+footer h3{
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+footer nav a{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
 
 /* 
 
@@ -70,30 +90,83 @@ header div button {
 }
 
 /*Для Featured posts*/
-.one{
-    background-image: url(images/index/p1.png);
+.fp h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
+    border-bottom: 1px solid #DEDEDE;
+    display: inline;
+}
+.fp article h3 {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
 }
 
-.one p{
+.fp article p{
     font-size: 14px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #FFFFFF;
 }
 
-.fp h2 {
+.one{
+    background-image: url(images/index/p1.png);
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url(images/index/p2.png);
+    background-repeat: no-repeat;
+}
+.two h4{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    border: 5px solid #DD783F;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    display: inline;
+}
+
+/*Для Recent*/
+.rec h2{
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
-}
-.fp article h3 {
-    font-size: 27px;
-    font-weight: 400px;
-    font-family: "Lora", serif;
-    color: #FFFFFF;
+    display: inline;
 }
 
+.rec article h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #101315;
+    font-family: "Lora", serif;
+}
+
+.rec article h4{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    border: 5px solid #DD783F;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    display: inline;
+}
+
+.rec article p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+    font-family: "Oxygen", sans-serif;
+}
 
 /*
 
