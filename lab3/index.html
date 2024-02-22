@@ -17,21 +17,21 @@
 
     <body>
         <!-- Верхние кнопки выхода -->
-        <header>
-            <h3>Escape.</h3>
-            <nav>
-                <a href="https://yandex.com/">HOME</a>
+        <header class="head">
+            <h3 class="head_escape_text">Escape.</h3>
+            <nav class="head_escape_menu escape_menu">
+                <a href="https://yandex.com/" class="escape_menu_button">HOME</a>
                 <a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA">CATEGORIES</a>
                 <a href="https://ru.wikipedia.org/wiki/HTML">ABOUT</a>
                 <a href="https://vk.com/x3r1x">CONTACT</a>
             </nav>
             <!-- Заголовок -->
-            <h1>Let's do it together.</h1>
+            <h1 class="head_header_text">Let's do it together.</h1>
 
             <!-- Всё, что под заголовком на фоне картинки -->
-            <div>
-                <p>We travel the world in search of stories. Come along for the ride.</p>
-                <button onclick="window.location.href = 'https://www.youtube.com/watch?v=ruvFi_cqO1Q&list=RDMM623JGFAYZ3w&index=8'">View Latest Posts</button>
+            <div class="head_underheader underheader">
+                <p class="underheader_text">We travel the world in search of stories. Come along for the ride.</p>
+                <button onclick="window.location.href = 'https://www.youtube.com/watch?v=ruvFi_cqO1Q&list=RDMM623JGFAYZ3w&index=8'" class="underheader_button">View Latest Posts</button>
             </div>
         </header>
         
@@ -39,49 +39,49 @@
         <section>
 
             <!-- Ссылки, которые сортируют тип контента -->
-            <nav class ="innav">
-                <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs">Nature</a>
-                <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM">Photography</a>
-                <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">Relaxation</a>
-                <a href="https://www.youtube.com/watch?v=p1LchwNFSVE">Vacation</a>
-                <a href="https://vk.com/travelline_ru">Travel</a>
-                <a href="https://www.youtube.com/watch?v=QtXby3twMmI">Adventure</a>
+            <nav class="content_sort">
+                <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs" class="content_sort_button">Nature</a>
+                <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM" class="content_sort_button">Photography</a>
+                <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" class="content_sort_button">Relaxation</a>
+                <a href="https://www.youtube.com/watch?v=p1LchwNFSVE" class="content_sort_button">Vacation</a>
+                <a href="https://vk.com/travelline_ru" class="content_sort_button">Travel</a>
+                <a href="https://www.youtube.com/watch?v=QtXby3twMmI" class="content_sort_button">Adventure</a>
             </nav>
 
             <!-- Блок "Featured posts" -->
-            <section class="fp">
+            <section>
                 <h2>Featured posts</h2>
 
                 <!-- The Road Ahead -->
-                <article class="one">
+                <article>
                     <h3>The Road Ahead</h3>
                     <p>The road ahead might be paved - it might not be.</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
-                        Gleb Ryzhov
-                    </p>
+                        <p>Gleb Ryzhov</p>
+                    </div>
 
                     <p>August 31, 2023</p>
                 </article>
 
                 <!-- From Top To Down -->
-                <article class="two">
+                <article>
                     <h4>ADVENTURE</h4>
                     <h3>From Top To Down</h3>
                     <p>Please visit Chongquing if you have any chance!</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
-                        Yan Jing Yu
-                    </p>
+                        <p>Yan Jing Yu</p>
+                    </div>
 
                     <p>January 18, 2024</p>
                 </article>
             </section>
 
             <!-- Блок "Recent" -->
-            <section class="rec">
+            <section>
                 <h2>Recent</h2>
 
                 <!-- "Assembler's importancy" -->
@@ -91,10 +91,10 @@
                     <h3>Assembler's importancy</h3>
                     <p>Assembler is a great opportunity to be a straight "A" student!</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
-                        Artem Chepurnoy
-                    </p>
+                        <p>Artem Chepurnoy</p>
+                    </div>
 
                     <p>23/12/2023</p>
                 </article>
@@ -106,10 +106,10 @@
                     <h3>Why sleeping is important?</h3>
                     <p>Just sleep and everything is alright!</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a4.png" alt="Arseniy Popov" width="40" height="40">
-                        Arseniy Popov
-                    </p>
+                        <p>Arseniy Popov</p>
+                    </div>
 
                     <p>18/12/2023</p>
                 </article>
@@ -122,10 +122,10 @@
                     <h3>Trip to Saint Petersburg</h3>
                     <p>The beauty of Russia's Netherlands can't be described in words!</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                        Nikolay Uskov
-                    </p>
+                        <p>Nikolay Uskov</p>
+                    </div>
 
                     <p>13/12/2023</p>
                 </article>
@@ -137,10 +137,10 @@
                     <h3>Through the mist</h3>
                     <p>Travel makes you see what a tiny place you occupy in the world.</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
-                        Artem Chepurnoy
-                    </p>
+                        <p>Artem Chepurnoy</p>
+                    </div>
 
                     <p>9/12/2023</p>
                 </article>
@@ -152,10 +152,10 @@
                     <h3>Awaken early</h3>
                     <p>Not thouse who wander are lost.</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                        Nikolay Uskov
-                    </p>
+                        <p>Nikolay Uskov</p>
+                    </div>
 
                     <p>7/12/2023</p>
                 </article>
@@ -167,10 +167,10 @@
                     <h3>Try it Always</h3>
                     <p>The world is a book, and those who do not travel read only the page.</p>
 
-                    <p>
+                    <div>
                         <img src="images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                        Nikolay Uskov
-                    </p>
+                        <p>Nikolay Uskov</p>
+                    </div>
 
                     <p>7/12/2023</p>
                 </article>
