@@ -1,33 +1,4 @@
-
-
 /*
-
-
-    ОБЩЕЕ
-
-
-*/
-
-/*  Заголовок  */
-header {
-    background-image: url(images/style/header-image.jpg);
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-}
-
-header h3 {
-    font-size: 26px;
-    font-weight: 400;
-    font-family: "Lora", serif;
-}
-
-header nav a{
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color:#FFFFFF;
-    text-decoration: none;
-}
 
 footer {
     background-image: url(images/style/footer-image.jpg);
@@ -48,6 +19,7 @@ footer nav a{
     font-family: "Oxygen", sans-serif;
     text-decoration: none;
 }
+*/
 
 /* 
 
@@ -57,20 +29,40 @@ footer nav a{
 
 */
 
-/*  Заголовок для страницы  */
-header h1 {
+.site_header {
+    background-image: url(images/style/header-image.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+
+.site_header__escape_text {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+.escape_menu__button{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.site_header__header_text {
     font-size: 50px;
     font-weight: 400;
     font-family: "Lora", serif;
 }
 
-header div p {
+.underheader__text {
     font-size: 17px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
 }
 
-header div button {
+.underheader__button {
     background-color: #DD783F;
     border: none;
     padding: 44px 167px;
@@ -81,16 +73,19 @@ header div button {
     font-family: "Oxygen", sans-serif;
 }
 
-/*  Для ссылок под заголовком  */
-.innav a{
+.content_sort__button{
     font-size: 14px;
     font-weight: 400;
     font-family: "Lora", serif;
     text-decoration: none;
 }
 
-/*  Для Featured posts  */
-.fp h2 {
+.site_content__featured_posts .featured_posts{
+    background-image: url(images/index/p1.png);
+    background-repeat: no-repeat;
+}
+
+.featured_posts__section_mark {
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -98,24 +93,28 @@ header div button {
     border-bottom: 1px solid #DEDEDE;
     display: inline-flex;
 }
-.fp article h3 {
+
+.main_article__header {
     font-size: 27px;
     font-weight: 400;
     font-family: "Lora", serif;
     color: #FFFFFF;
 }
 
-.fp article p{
+.main_article__subscription{
     font-size: 14px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #FFFFFF;
 }
 
-.one{
-    background-image: url(images/index/p1.png);
-    background-repeat: no-repeat;
+.main_article__date {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
 }
+
 .two{
     background-image: url(images/index/p2.png);
     background-repeat: no-repeat;
