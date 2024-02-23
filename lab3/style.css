@@ -80,11 +80,6 @@ footer nav a{
     text-decoration: none;
 }
 
-.site_content__featured_posts .featured_posts{
-    background-image: url(images/index/p1.png);
-    background-repeat: no-repeat;
-}
-
 .featured_posts__section_mark {
     font-size: 20px;
     font-weight: 400;
@@ -94,28 +89,40 @@ footer nav a{
     display: inline-flex;
 }
 
-.main_article__header {
+.featured_posts__tra.tra{
+    background-image: url(images/index/p1.png);
+    background-repeat: no-repeat;
+}
+
+.tra__header {
     font-size: 27px;
     font-weight: 400;
     font-family: "Lora", serif;
     color: #FFFFFF;
 }
 
-.main_article__subscription{
+.tra__subscription{
     font-size: 14px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #FFFFFF;
 }
 
-.main_article__date {
+.avatar__subscription{
     font-size: 14px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
     color: #FFFFFF;
 }
 
-.two{
+.tra__date {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+/*.two{
     background-image: url(images/index/p2.png);
     background-repeat: no-repeat;
 }
@@ -132,7 +139,7 @@ footer nav a{
 }
 
 /*  Для Recent  */
-.rec h2{
+/*.rec h2{
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -176,7 +183,7 @@ footer nav a{
 */
 
 /*  Header  */
-.tra {
+/*.tra {
     background-image: none;
 }
 .tra h3 {
@@ -187,7 +194,7 @@ footer nav a{
 }
 
 /*  Заголовок  */
-.header h1{
+/*.header h1{
     font-size: 50px;
     font-weight: 400;
     color: #2E2E2E;
