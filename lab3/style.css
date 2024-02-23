@@ -1,26 +1,3 @@
-/*
-
-footer {
-    background-image: url(images/style/footer-image.jpg);
-    background-repeat: no-repeat;
-}
-
-footer h3{
-    font-size: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-family: "Lora", serif;
-}
-
-footer nav a{
-    font-size: 11px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: "Oxygen", sans-serif;
-    text-decoration: none;
-}
-*/
-
 /* 
 
 
@@ -108,7 +85,7 @@ footer nav a{
     color: #FFFFFF;
 }
 
-.avatar__subscription{
+.tra_author__subscription{
     font-size: 14px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -122,11 +99,12 @@ footer nav a{
     color: #FFFFFF;
 }
 
-/*.two{
+.featured_posts__fttd.fttd{
     background-image: url(images/index/p2.png);
     background-repeat: no-repeat;
 }
-.two h4{
+
+.fttd__adventure_sign{
     font-size: 12px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -138,8 +116,35 @@ footer nav a{
     display: inline;
 }
 
-/*  Для Recent  */
-/*.rec h2{
+.fttd__header {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.fttd__subscription {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.fttd_author__subscription {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.fttd__date {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.recent__section_mark{
     font-size: 20px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -148,14 +153,14 @@ footer nav a{
     display: inline-flex;
 }
 
-.rec article h3{
+.extra_article__header{
     font-size: 16px;
     font-weight: 400;
     color: #101315;
     font-family: "Lora", serif;
 }
 
-.rec article h4{
+.extra_article__adventure_mark{
     font-size: 12px;
     font-weight: 400;
     font-family: "Oxygen", sans-serif;
@@ -167,12 +172,47 @@ footer nav a{
     display: inline;
 }
 
-.rec article p{
+.extra_article__subscription{
     font-size: 13px;
     font-weight: 400;
     color: #7A7A7A;
     font-family: "Oxygen", sans-serif;
 }
+
+.extra_avatar__subscription {
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Oxygen", sans-serif;
+}
+
+.extra_article__date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Oxygen", sans-serif;
+}
+
+.site_footer {
+    background-image: url(images/style/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+
+.site_footer__footer_text {
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+.nav_menu__footer_button {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
+
 
 /*
 
@@ -182,35 +222,58 @@ footer nav a{
 
 */
 
-/*  Header  */
-/*.tra {
-    background-image: none;
-}
-.tra h3 {
+.tra_header__text {
+    font-size: 26px;
+    font-weight: 400;
     color: #2E2E2E;
-}
-.tra nav a{
-    color: #2E2E2E;
+    font-family: "Lora", serif;
 }
 
-/*  Заголовок  */
-/*.header h1{
+.tra_menu__button{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
+
+.upper_text__header{
     font-size: 50px;
     font-weight: 400;
     color: #2E2E2E;
     font-family: "Lora", serif;
 }
 
-.header p{
+.upper_text__underheader{
     font-size: 17px;
     font-weight: 400;
     color: #2E2E2E;
     font-family: "Oxygen", sans-serif;
 }
 
-.text {
+.tra_content__information {
     font-size: 24px;
     font-weight: 400px;
     color: #101315;
     font-family: "Oxygen", sans-serif;
+}
+
+.tra_footer {
+    background-image: url(images/style/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+
+.tra_footer__text {
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+.tra_exit__button {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
 }
