@@ -153,6 +153,11 @@
     display: inline-flex;
 }
 
+.extra_article__image {
+    max-width: 296px;
+    max-height: 150px;
+}
+
 .extra_article__header{
     font-size: 16px;
     font-weight: 400;
