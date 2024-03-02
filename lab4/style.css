@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+
+
+    INDEX
+
+
+*/
+
+.site_header {
+    background-image: url(images/style/header-image.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+
+.site_header__escape_text {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+.escape_menu__button{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.site_header__header_text {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+}
+
+.underheader__text {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+}
+
+.underheader__button {
+    display: inline-block;
+    font: 400 13px/20px "Oxygen";
+    text-decoration: none;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    padding: 22px 52px;
+    border-radius: 10px;
+}
+
+.content_sort__button{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    text-decoration: none;
+}
+
+.featured_posts__section_mark {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
+    border-bottom: 1px solid #DEDEDE;
+    display: inline-flex;
+}
+
+.featured_posts__tra.tra{
+    background-image: url(images/index/p1.png);
+    background-repeat: no-repeat;
+}
+
+.tra__header {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.tra__subscription{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.tra_author__subscription{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.tra__date {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.featured_posts__fttd.fttd{
+    background-image: url(images/index/p2.png);
+    background-repeat: no-repeat;
+}
+
+.fttd__adventure_sign{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    border: 5px solid #DD783F;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    display: inline;
+}
+
+.fttd__header {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.fttd__subscription {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.fttd_author__subscription {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.fttd__date {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #FFFFFF;
+}
+
+.recent__section_mark{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
+    border-bottom: 1px solid #DEDEDE;
+    display: inline-flex;
+}
+
+.extra_article__image {
+    max-width: 296px;
+    max-height: 150px;
+}
+
+.extra_article__header{
+    font-size: 16px;
+    font-weight: 400;
+    color: #101315;
+    font-family: "Lora", serif;
+}
+
+.extra_article__adventure_mark{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    border: 5px solid #DD783F;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    display: inline;
+}
+
+.extra_article__subscription{
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+    font-family: "Oxygen", sans-serif;
+}
+
+.extra_avatar__subscription {
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Oxygen", sans-serif;
+}
+
+.extra_article__date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Oxygen", sans-serif;
+}
+
+.site_footer {
+    background-image: url(images/style/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+
+.site_footer__footer_text {
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+.nav_menu__footer_button {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
+
+
+/*
+
+
+    THE ROAD AHEAD
+
+
+*/
+
+.tra_header__text {
+    font-size: 26px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Lora", serif;
+}
+
+.tra_menu__button{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
+
+.upper_text__header{
+    font-size: 50px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Lora", serif;
+}
+
+.upper_text__underheader{
+    font-size: 17px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Oxygen", sans-serif;
+}
+
+.tra_content__information {
+    font-size: 24px;
+    font-weight: 400px;
+    color: #101315;
+    font-family: "Oxygen", sans-serif;
+}
+
+.tra_footer {
+    background-image: url(images/style/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+
+.tra_footer__text {
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+.tra_exit__button {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+}
