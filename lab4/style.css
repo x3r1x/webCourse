@@ -19,29 +19,22 @@
 
 
 .site_header__escape_text {
-    font-size: 26px;
-    font-weight: 400;
-    font-family: "Lora", serif;
+    font: 400 26px/26px "Lora";
 }
 
 .escape_menu__button{
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
+    font: 400 12px/20px "Oxygen";
     color:#FFFFFF;
     text-decoration: none;
 }
 
 .site_header__header_text {
-    font-size: 50px;
-    font-weight: 400;
-    font-family: "Lora", serif;
+    font: 400 50px/51px "Lora";
 }
 
 .underheader__text {
-    font-size: 17px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
+    font: 400 17px/20px "Oxygen";
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .underheader__button {
@@ -55,19 +48,14 @@
 }
 
 .content_sort__button{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Lora", serif;
+    font: 400 14px/20px "Lora";
     text-decoration: none;
 }
 
 .featured_posts__section_mark {
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
+    font: 400 20px/27px "Oxygen";
     color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
-    display: inline-flex;
 }
 
 .featured_posts__tra.tra{
@@ -76,31 +64,23 @@
 }
 
 .tra__header {
-    font-size: 27px;
-    font-weight: 400;
-    font-family: "Lora", serif;
+    font: 400 27px/30px "Lora";
     color: #FFFFFF;
 }
 
 .tra__subscription{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/25px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .tra_author__subscription{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/35px "Oxygen";
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .tra__date {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/35px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .featured_posts__fttd.fttd{
@@ -109,52 +89,39 @@
 }
 
 .fttd__adventure_sign{
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
+    font: 400 12px/13px "Oxygen";
     background-color: #DD783F;
     color: #FFFFFF;
     border: 5px solid #DD783F;
     background-repeat: no-repeat;
     border-radius: 3px;
-    display: inline;
+    display: inline-block;
 }
 
 .fttd__header {
-    font-size: 27px;
-    font-weight: 400;
-    font-family: "Lora", serif;
+    font: 400 27px/30px "Lora";
     color: #FFFFFF;
 }
 
 .fttd__subscription {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/25px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .fttd_author__subscription {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/35px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .fttd__date {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    color: #FFFFFF;
+    font: 400 14px/35px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .recent__section_mark{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
+    font: 400 20px/27px "Oxygen";
     color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
-    display: inline-flex;
 }
 
 .extra_article__image {
@@ -163,43 +130,23 @@
 }
 
 .extra_article__header{
-    font-size: 16px;
-    font-weight: 400;
+    font: 400 16px/21px "Lora";
     color: #101315;
-    font-family: "Lora", serif;
-}
-
-.extra_article__adventure_mark{
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Oxygen", sans-serif;
-    background-color: #DD783F;
-    color: #FFFFFF;
-    border: 5px solid #DD783F;
-    background-repeat: no-repeat;
-    border-radius: 3px;
-    display: inline;
 }
 
 .extra_article__subscription{
-    font-size: 13px;
-    font-weight: 400;
+    font: 400 13px/19px "Oxygen";
     color: #7A7A7A;
-    font-family: "Oxygen", sans-serif;
 }
 
 .extra_avatar__subscription {
-    font-size: 11px;
-    font-weight: 400;
+    font: 400 11px/35px "Oxygen";
     color: #999999;
-    font-family: "Oxygen", sans-serif;
 }
 
 .extra_article__date {
-    font-size: 12px;
-    font-weight: 400;
+    font: 400 12px/35px "Oxygen";
     color: #999999;
-    font-family: "Oxygen", sans-serif;
 }
 
 .site_footer {
@@ -207,22 +154,39 @@
     background-repeat: no-repeat;
 }
 
+.sit__text {
+    font: 400 25px/30px "Oxygen";
+    color: #EFEFEF;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.console_log__console {
+    background-image: url(images/style/console_log__console.png);
+    background-repeat: no-repeat;
+    font: 400 12px/14px "Roboto";
+    color: #817F83;
+}
+
+.console_log__button {
+    background-image: url(images/style/console_log__button.png);
+    background-repeat: no-repeat;
+    font: 400 12px/14px "Roboto";
+    color: #F8F8F8;
+}
+
 .site_footer__exit_buttons.exit_buttons {
-    background-image: url(images/style/footer-rectangle.png)
+    background-image: url(images/style/footer-rectangle.png);
+    background-repeat: no-repeat;
 }
 
 .exit_buttons__footer_text {
-    font-size: 26px;
-    font-weight: 400;
+    font: 400 26px/26px "Lora";
     color: #FFFFFF;
-    font-family: "Lora", serif;
 }
 
 .nav_menu__footer_button {
-    font-size: 11px;
-    font-weight: 400;
+    font: 400 11px/26px "Oxygen";
     color: rgba(255, 255, 255, 0.6);
-    font-family: "Oxygen", sans-serif;
     text-decoration: none;
 }
 
@@ -236,37 +200,27 @@
 */
 
 .tra_header__text {
-    font-size: 26px;
-    font-weight: 400;
+    font: 400 26px/26px "Lora";
     color: #2E2E2E;
-    font-family: "Lora", serif;
 }
 
 .tra_menu__button{
-    font-size: 12px;
-    font-weight: 400;
+    font: 400 12px/20px "Oxygen";
     color: #2E2E2E;
-    font-family: "Oxygen", sans-serif;
     text-decoration: none;
 }
 
 .upper_text__header{
-    font-size: 50px;
-    font-weight: 400;
+    font: 400 50px/51px "Lora";
     color: #2E2E2E;
-    font-family: "Lora", serif;
 }
 
 .upper_text__underheader{
-    font-size: 17px;
-    font-weight: 400;
+    font: 400 17px/20px "Oxygen";
     color: #2E2E2E;
-    font-family: "Oxygen", sans-serif;
 }
 
 .tra_content__information {
-    font-size: 24px;
-    font-weight: 400px;
+    font: 400 24px/35px "Oxygen";
     color: #101315;
-    font-family: "Oxygen", sans-serif;
 }
