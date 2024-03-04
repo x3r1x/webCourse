@@ -203,11 +203,15 @@
 }
 
 .site_footer {
-    background-image: url(images/style/footer-image.jpg);
+    background-image: url(images/style/footer-image.png);
     background-repeat: no-repeat;
 }
 
-.site_footer__footer_text {
+.site_footer__exit_buttons.exit_buttons {
+    background-image: url(images/style/footer-rectangle.png)
+}
+
+.exit_buttons__footer_text {
     font-size: 26px;
     font-weight: 400;
     color: #FFFFFF;
@@ -265,24 +269,4 @@
     font-weight: 400px;
     color: #101315;
     font-family: "Oxygen", sans-serif;
-}
-
-.tra_footer {
-    background-image: url(images/style/footer-image.jpg);
-    background-repeat: no-repeat;
-}
-
-.tra_footer__text {
-    font-size: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-family: "Lora", serif;
-}
-
-.tra_exit__button {
-    font-size: 11px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: "Oxygen", sans-serif;
-    text-decoration: none;
 }
