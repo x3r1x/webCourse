@@ -13,13 +13,27 @@
 
 .site_header {
     background-image: url(images/style/header-image.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     color: #FFFFFF;
+    display: block;
 }
 
+.site_header__top.top {
+    max-width: 940px;
+    max-height: 74px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.site_header__escape_text {
-    font: 400 26px/26px "Lora";
+.top__escape_text {
+    font: 400 26px/26px "Lora"; 
+}
+
+.site_header__escape_menu.escape_menu {
+    list-style-type: none;
 }
 
 .escape_menu__button{
