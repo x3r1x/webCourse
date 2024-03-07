@@ -30,10 +30,10 @@
                 </ul>
             </div>
             <!-- Заголовок -->
-            <h1 class="site_header__header_text">Let's do it together.</h1>
+            <div class="site_header__content content">
+                <h1 class="content__header_text">Let's do it together.</h1>
 
-            <!-- Всё, что под заголовком на фоне картинки -->
-            <div class="site_header__underheader underheader">
+                <!-- Всё, что под заголовком на фоне картинки -->
                 <p class="underheader__text">We travel the world in search of stories. Come along for the ride.</p>
                 <a href="https://www.youtube.com/watch?v=ruvFi_cqO1Q&list=RDMM623JGFAYZ3w&index=8s" class="underheader__button">View Latest Posts</a>
             </div>
@@ -43,45 +43,47 @@
         <section class="site_content">
 
             <!-- Ссылки, которые сортируют тип контента -->
-            <nav class="site_content__content_sort content_sort">
-                <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs" class="content_sort__button">Nature</a>
-                <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM" class="content_sort__button">Photography</a>
-                <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" class="content_sort__button">Relaxation</a>
-                <a href="https://www.youtube.com/watch?v=p1LchwNFSVE" class="content_sort__button">Vacation</a>
-                <a href="https://vk.com/travelline_ru" class="content_sort__button">Travel</a>
-                <a href="https://www.youtube.com/watch?v=QtXby3twMmI" class="content_sort__button">Adventure</a>
-            </nav>
+            <div class="site_content__color_set">
+                <nav class="site_content__content_sort content_sort">
+                    <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs" class="content_sort__button">Nature</a>
+                    <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM" class="content_sort__button">Photography</a>
+                    <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" class="content_sort__button">Relaxation</a>
+                    <a href="https://www.youtube.com/watch?v=p1LchwNFSVE" class="content_sort__button">Vacation</a>
+                    <a href="https://vk.com/travelline_ru" class="content_sort__button">Travel</a>
+                    <a href="https://www.youtube.com/watch?v=QtXby3twMmI" class="content_sort__button">Adventure</a>
+                </nav>
+            </div>
 
             <!-- Блок "Featured posts" -->
             <section class="site_content__featured_posts featured_posts">
                 <h2 class="featured_posts__section_mark">Featured posts</h2>
 
-                <!-- The Road Ahead -->
-                <article class="featured_posts__tra tra">
-                    <h3 class="tra__header">The Road Ahead</h3>
-                    <p class="tra__subscription">The road ahead might be paved - it might not be.</p>
+                <div class="featured_posts__content content">
+                    <!-- The Road Ahead -->
+                    <article class="content__tra tra">
+                        <h3 class="tra__header">The Road Ahead</h3>
+                        <p class="tra__subscription">The road ahead might be paved - it might not be.</p>
 
-                    <div class="tra__avatar tra_author">
-                        <img src="images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
-                        <p class="tra_author__subscription">Gleb Ryzhov</p>
-                    </div>
+                        <div class="tra__avatar tra_author">
+                            <img src="images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
+                            <p class="tra_author__subscription">Gleb Ryzhov</p>
+                            <p class="tra_author__date">August 31, 2023</p>
+                        </div>
+                    </article>
 
-                    <p class="tra__date">August 31, 2023</p>
-                </article>
+                    <!-- From Top To Down -->
+                    <article class="content__fttd fttd">
+                        <h4 class="fttd__adventure_sign">ADVENTURE</h4>
+                        <h3 class="fttd__header">From Top To Down</h3>
+                        <p class="fttd__subscription">Please visit Chongquing if you have any chance!</p>
 
-                <!-- From Top To Down -->
-                <article class="featured_posts__fttd fttd">
-                    <h4 class="fttd__adventure_sign">ADVENTURE</h4>
-                    <h3 class="fttd__header">From Top To Down</h3>
-                    <p class="fttd__subscription">Please visit Chongquing if you have any chance!</p>
-
-                    <div class="fttd__avatar fttd_author">
-                        <img src="images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
-                        <p class="fttd_author__subscription">Yan Jing Yu</p>
-                    </div>
-
-                    <p class="fttd__date">January 18, 2024</p>
-                </article>
+                        <div class="fttd__avatar fttd_author">
+                            <img src="images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
+                            <p class="fttd_author__subscription">Yan Jing Yu</p>
+                            <p class="fttd_author__date">January 18, 2024</p>
+                        </div>
+                    </article>
+                </div>
             </section>
 
             <!-- Блок "Recent" -->

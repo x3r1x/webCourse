@@ -15,12 +15,13 @@
     background-image: url(images/style/header-image.jpg);
     background-size: cover;
     color: #FFFFFF;
+    height: 500px;
     display: block;
 }
 
 .site_header__top.top {
     max-width: 940px;
-    max-height: 74px;
+    height: 74px;
     margin-inline: auto;
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +35,11 @@
 
 .site_header__escape_menu.escape_menu {
     list-style-type: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 376px;
+    justify-content: space-around;
 }
 
 .escape_menu__button{
@@ -42,7 +48,16 @@
     text-decoration: none;
 }
 
-.site_header__header_text {
+.site_header__content.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px; 
+    height: 160px;
+}
+
+.content__header_text {
     font: 400 50px/51px "Lora";
 }
 
@@ -61,25 +76,76 @@
     border-radius: 10px;
 }
 
+.site_content {
+    background-color: #F7F7F7;
+}
+
+.site_content__color_set {
+    background-color: #FFFFFF;
+}
+
+.site_content__content_sort.content_sort {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 65px;
+    justify-content: space-between;
+    align-content: center;
+}
+
 .content_sort__button{
     font: 400 14px/20px "Lora";
     text-decoration: none;
+}
+
+.site_content__featured_posts.featured_posts {
+    width: 940px;
+    height: 415px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
 }
 
 .featured_posts__section_mark {
     font: 400 20px/27px "Oxygen";
     color: #2E2E2E;
     border-bottom: 1px solid #DEDEDE;
+    width: 188px;
+    padding-bottom: 17px;
+    padding-left: 45px;
 }
 
-.featured_posts__tra.tra{
+.featured_posts__content.content {
+    width: 940px;
+    height: 294px;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content__tra.tra{
     background-image: url(images/index/p1.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 280px;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .tra__header {
     font: 400 27px/30px "Lora";
     color: #FFFFFF;
+    margin-top: 157px;
 }
 
 .tra__subscription{
@@ -87,34 +153,52 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
+.tra__avatar.tra_author {
+    display: flex;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .tra_author__subscription{
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
 }
 
-.tra__date {
+.tra_author__date {
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.7);
+    margin-left: 200px;
 }
 
-.featured_posts__fttd.fttd{
+.content__fttd.fttd{
     background-image: url(images/index/p2.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 280px;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .fttd__adventure_sign{
+    display: inline-block;
     font: 400 12px/13px "Oxygen";
     background-color: #DD783F;
     color: #FFFFFF;
-    border: 5px solid #DD783F;
-    background-repeat: no-repeat;
+    padding: 7px 9px;
     border-radius: 3px;
-    display: inline-block;
+    margin-top: 20px;
+    max-width: 70px;
 }
 
 .fttd__header {
     font: 400 27px/30px "Lora";
     color: #FFFFFF;
+    margin-top: 111px;
 }
 
 .fttd__subscription {
@@ -127,7 +211,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.fttd__date {
+.fttd_author__date {
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.7);
 }
