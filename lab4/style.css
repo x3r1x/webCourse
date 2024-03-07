@@ -20,7 +20,7 @@
 }
 
 .site_header__top.top {
-    max-width: 940px;
+    width: 940px;
     height: 74px;
     margin-inline: auto;
     display: flex;
@@ -225,35 +225,99 @@
     margin-left: 200px;
 }
 
+.site_content__recent.recent {
+    width: 940px;
+    height: 752px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .recent__section_mark{
     font: 400 20px/27px "Oxygen";
     color: #2E2E2E;
+    width: 188px;
     border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 17px;
+    padding-left: 111px;
+}
+
+.recent__post.post {
+    width: 960px;
+    height: 632px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.extra_article {
+    width: 296px;
+    height: 291px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #FFFFFF;
 }
 
 .extra_article__image {
-    max-width: 296px;
-    max-height: 150px;
+    width: 296px;
+    height: 150px;
 }
 
-.extra_article__header{
+.extra_article__text.text {
+    width: 296px;
+    height: 93px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.text__header{
     font: 400 16px/21px "Lora";
     color: #101315;
+    margin-top: 14px;
+    margin-left: 13px;
 }
 
-.extra_article__subscription{
+.text__subscription{
     font: 400 13px/19px "Oxygen";
     color: #7A7A7A;
+    margin-top: 6px;
+    margin-left: 13px;
 }
 
-.extra_avatar__subscription {
+.extra_article__extra_avatar.extra_avatar {
+    width: 296px;
+    height: 48px;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extra_avatar__human.human {
+    display: flex;
+    align-items: center;
+}
+
+.human__image {
+    width: 26px;
+    height: 26px;
+    margin-left: 13px;
+}
+
+.human__subscription {
     font: 400 11px/35px "Oxygen";
     color: #999999;
+    margin-left: 10px;
 }
 
-.extra_article__date {
+.extra_avatar__date {
     font: 400 12px/35px "Oxygen";
     color: #999999;
+    justify-self: flex-end;
+    margin-right: 13px;
+    width: 60px;
 }
 
 .site_footer {
