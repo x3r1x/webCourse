@@ -206,14 +206,23 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.fttd_author__subscription {
-    font: 400 14px/35px "Oxygen";
-    color: rgba(255, 255, 255, 0.7);
+.fttd__avatar.avatar {
+    display: flex;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.fttd_author__date {
+.avatar__subscription {
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+
+.avatar__date {
+    font: 400 14px/35px "Oxygen";
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 200px;
 }
 
 .recent__section_mark{
