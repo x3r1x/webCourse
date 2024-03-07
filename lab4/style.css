@@ -322,13 +322,32 @@
 
 .site_footer {
     background-image: url(images/style/footer-image.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    height: 378px;
+    display: block;
+}
+
+.site_footer__sit.sit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 288px ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .sit__text {
     font: 400 25px/30px "Oxygen";
     color: #EFEFEF;
     border-bottom: 1px solid #DEDEDE;
+    width: 188px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    margin-top: 81px;
+}
+
+.sit__console_log.console_log {
+    display: flex;
+    margin-top: 20px;
 }
 
 .console_log__console {
@@ -336,6 +355,7 @@
     background-repeat: no-repeat;
     font: 400 12px/14px "Roboto";
     color: #817F83;
+    padding: 18px 205px 18px 35px;
 }
 
 .console_log__button {
@@ -343,16 +363,29 @@
     background-repeat: no-repeat;
     font: 400 12px/14px "Roboto";
     color: #F8F8F8;
+    padding: 18px 43px 18px 44px;
 }
 
 .site_footer__exit_buttons.exit_buttons {
     background-image: url(images/style/footer-rectangle.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .exit_buttons__footer_text {
     font: 400 26px/26px "Lora";
     color: #FFFFFF;
+}
+
+.exit_buttons__nav_menu.nav_menu {
+    list-style-type: none;
+    display: flex;
+    width: 133px;
+    justify-content: space-between;
+    width: 253px;
 }
 
 .nav_menu__footer_button {
@@ -370,15 +403,43 @@
 
 */
 
+.tra_header {
+    margin-inline: auto;
+    display: flex;
+    height: 74px;
+    width: 940px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .tra_header__text {
     font: 400 26px/26px "Lora";
     color: #2E2E2E;
+}
+
+.tra_header__tra_menu.tra_menu {
+    list-style-type: none;
+    display: flex;
+    width: 377px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .tra_menu__button{
     font: 400 12px/20px "Oxygen";
     color: #2E2E2E;
     text-decoration: none;
+}
+
+.tra_content__upper_text.upper_text {
+    height: 160px;
+    width: 940px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
 }
 
 .upper_text__header{
@@ -389,9 +450,20 @@
 .upper_text__underheader{
     font: 400 17px/20px "Oxygen";
     color: #2E2E2E;
+    padding-top: 20px;
+}
+
+.tra_content__image {
+    margin-top: 40px;
+    width: 100%;
+    height: 534px;
 }
 
 .tra_content__information {
     font: 400 24px/35px "Oxygen";
     color: #101315;
+    width: 960px;
+    margin-inline: auto;
+    margin-top: 140px;
+    margin-bottom: 135px;
 }
