@@ -342,7 +342,7 @@
     width: 188px;
     padding-bottom: 18px;
     padding-left: 35px;
-    margin-top: 81px;
+    margin-top: 81px;   
 }
 
 .sit__console_log.console_log {
@@ -351,20 +351,27 @@
 }
 
 .console_log__console {
-    background-image: url(images/style/console_log__console.png);
-    background-repeat: no-repeat;
     font: 400 12px/14px "Roboto";
     color: #817F83;
-    padding: 18px 205px 18px 35px;
+    padding: 16.5px 205px 16.5px 35px;  
 }
 
 .console_log__button {
-    background-image: url(images/style/console_log__button.png);
-    background-repeat: no-repeat;
     font: 400 12px/14px "Roboto";
-    color: #F8F8F8;
     padding: 18px 43px 18px 44px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.28);
+    border: none;
 }
+
+.console_log__button:active {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.console_log__button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
 
 .site_footer__exit_buttons.exit_buttons {
     background-image: url(images/style/footer-rectangle.png);
