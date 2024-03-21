@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+    <head>
+        <!-- Кодировка -->
+        <meta charset="UTF-8">
+        <!-- "Ширина" сайта -->
+        <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+        <!-- Подключение файла "style.css" -->
+        <link rel="stylesheet" href="static/style/style.css">
+        <!-- Заголовок -->
+        <title>Let's do it together!</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <!-- Верхние кнопки выхода -->
+        <header class="site_header">
+            <div class="site_header__top top">
+                <h3 class="top__escape_text">Escape.</h3>
+
+                <ul class="site_header__escape_menu escape_menu">
+                    <li class="escape_menu__item"><a href="https://yandex.com/" class="escape_menu__button">HOME</a></li>
+                    <li class="escape_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="escape_menu__button">CATEGORIES</a></li>
+                    <li class="escape_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="escape_menu__button">ABOUT</a></li>
+                    <li class="escape_menu__item"><a href="https://vk.com/x3r1x" class="escape_menu__button">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- Заголовок -->
+            <div class="site_header__content content">
+                <h1 class="content__header_text">Let's do it together.</h1>
+
+                <!-- Всё, что под заголовком на фоне картинки -->
+                <p class="underheader__text">We travel the world in search of stories. Come along for the ride.</p>
+                <a href="https://www.youtube.com/watch?v=ruvFi_cqO1Q&list=RDMM623JGFAYZ3w&index=8s" class="underheader__button">View Latest Posts</a>
+            </div>
+        </header>
+        
+        <!-- Контент сайта -->
+        <section class="site_content">
+
+            <!-- Ссылки, которые сортируют тип контента -->
+            <div class="site_content__color_set">
+                <nav class="site_content__content_sort content_sort">
+                    <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs" class="content_sort__button">Nature</a>
+                    <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM" class="content_sort__button">Photography</a>
+                    <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" class="content_sort__button">Relaxation</a>
+                    <a href="https://www.youtube.com/watch?v=p1LchwNFSVE" class="content_sort__button">Vacation</a>
+                    <a href="https://vk.com/travelline_ru" class="content_sort__button">Travel</a>
+                    <a href="https://www.youtube.com/watch?v=QtXby3twMmI" class="content_sort__button">Adventure</a>
+                </nav>
+            </div>
+
+            <!-- Блок "Featured posts" -->
+            <section class="site_content__featured_posts featured_posts">
+                <h2 class="featured_posts__section_mark">Featured posts</h2>
+
+                <div class="featured_posts__content content">
+                    <!-- The Road Ahead -->
+                    <article class="content__tra tra">
+                        <h3 class="tra__header">The Road Ahead</h3>
+                        <p class="tra__subscription">The road ahead might be paved - it might not be.</p>
+
+                        <div class="tra__avatar tra_author">
+                            <img src="static/images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
+                            <p class="tra_author__subscription">Gleb Ryzhov</p>
+                            <p class="tra_author__date">August 31, 2023</p>
+                        </div>
+                    </article>
+
+                    <!-- From Top To Down -->
+                    <article class="content__fttd fttd">
+                        <h4 class="fttd__adventure_sign">ADVENTURE</h4>
+                        <h3 class="fttd__header">From Top To Down</h3>
+                        <p class="fttd__subscription">Please visit Chongquing if you have any chance!</p>
+
+                        <div class="fttd__avatar avatar">
+                            <img src="static/images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
+                            <p class="avatar__subscription">Yan Jing Yu</p>
+                            <p class="avatar__date">January 18, 2024</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Блок "Recent" -->
+            <section class="site_content__recent recent">
+                <h2 class="recent__section_mark">Recent</h2>
+
+                <!-- Статьи -->
+                <div class="recent__post post">
+                    <!-- "Assembler's importancy" -->
+                    <article class="post__asi extra_article">
+                        <img src="static/images/index/p3.png" alt="Assembler's importancy" width = '720' height="360" class="extra_article__image">
+
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Assembler's importancy</h3>
+                            <p class="text__subscription">Assembler is a great opportunity to be a straight "A" student!</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
+                                <p class="human__subscription">Artem Chepurnoy</p>
+                            </div>
+
+                            <p class="extra_avatar__date">23/12/2023</p>
+                        </div>
+                    </article>
+
+                    <!-- Why sleeping is important? -->
+                    <article class="post__wsii extra_article">
+                        <img src="static/images/index/p4.png" alt="Why sleeping is important?" width="720" height="360" class="extra_article__image">
+
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Why sleeping is important?</h3>
+                            <p class="text__subscription">Just sleep and everything is alright!</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a4.png" alt="Arseniy Popov" width="40" height="40">
+                                <p class="human__subscription">Arseniy Popov</p>
+                            </div>
+
+                            <p class="extra_avatar__date">18/12/2023</p>
+                        </div>
+                    </article>
+
+                    <!-- Trip to Saint Petersburg -->
+                    <article class="post__ttsp extra_article">
+                        <img src="static/images/index/p5.png" alt="Trip to Saint Petersburg" width="720" height="360" class="extra_article__image">
+
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Trip to Saint Petersburg</h3>
+                            <p class="text__subscription">The beauty of Russia's Netherlands can't be described in words!</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
+                                <p class="human__subscription">Nikolay Uskov</p>
+                            </div>
+
+                            <p class="extra_avatar__date">13/12/2023</p>
+                        </div>
+                    </article>
+
+                    <!-- Пока неизвестно(на сейчас из примера) -->
+                    <article class="post__ttm extra_article">
+                        <img src="static/images/index/p6.png" alt="Through the mist" width="720" height="360" class="extra_article__image">
+
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Through the mist</h3>
+                            <p class="text__subscription">Travel makes you see what a tiny place you occupy in the world.</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
+                                <p class="human__subscription">Artem Chepurnoy</p>
+                            </div>
+
+                            <p class="extra_avatar__date">9/12/2023</p>
+                        </div>
+                    </article>
+
+                    <!-- Пока неизвестно(на сейчас из примера) -->
+                    <article class="post__ae extra_article">
+                        <img src="static/images/index/p7.png" alt="Awaken early" width="720" height="360" class="extra_article__image">
+
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Awaken early</h3>
+                            <p class="text__subscription">Not thouse who wander are lost.</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
+                                <p class="human__subscription">Nikolay Uskov</p>
+                            </div>
+
+                            <p class="extra_avatar__date">7/12/2023</p>
+                        </div>
+                    </article>
+
+                    <!-- Пока неизвестно(на сейчас из примера) -->
+                    <article class="post__tit extra_article">
+                        <img src="static/images/index/p8.png" alt="Awaken early" width="720" height="360" class="extra_article__image">
+                        
+                        <div class="extra_article__text text">
+                            <h3 class="text__header">Try it Always</h3>
+                            <p class="text__subscription">The world is a book, and those who do not travel read only the page.</p>
+                        </div>
+
+                        <div class="extra_article__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
+                                <p class="human__subscription">Nikolay Uskov</p>
+                            </div>
+
+                            <p class="extra_avatar__date">7/12/2023</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <!-- Нижняя часть сайта -->
+        <footer class="site_footer">
+            <!-- Блок "Stay in touch" -->
+            <article class="site_footer__sit sit">
+                <h3 class="sit__text">Stay in Touch</h3>
+
+                <div class="sit__console_log console_log">
+                    <input id="email" name="console_log" placeholder="Enter your email" class="console_log__console">
+                    <button class="console_log__button" onclick="alert()">Submit</button>
+                </div>
+            </article>
+
+            <!-- Нижние кнопки выхода -->
+            <article class="site_footer__exit_buttons exit_buttons">
+                <h3 class="exit_buttons__footer_text">Escape.</h3>
+
+                <ul class="exit_buttons__nav_menu nav_menu">
+                    <li class="nav_menu__item"><a href="https://yandex.com/" class="nav_menu__footer_button">HOME</a></li>
+                    <li class="nav_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="nav_menu__footer_button">CATEGORIES</a></li>
+                    <li class="nav_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="nav_menu__footer_button">ABOUT</a></li> 
+                    <li class="nav_menu__item"><a href="https://vk.com/x3r1x" class="nav_menu__footer_button">CONTACT</a></li>
+                </ul>
+            </article>
+        </footer>
+    </body>
+</html>
