@@ -1,3 +1,84 @@
+<?php
+$featured_posts = [
+    [
+        'background_image_modifier' => 'tra',
+        'is_adventure' => False,
+        'title' => 'The Road Ahead',
+        'subsription' => 'The road ahead might be paved - it might not be.',
+        'author_photo' => 'static/images/index/a1.png',
+        'author_name' => 'Gleb Ryzhov',
+        'date' => 'August 31, 2023'
+    ],
+
+    [
+        'background_image_modifier' => 'fttd',
+        'is_adventure' => True,
+        'title' => 'From Top To Down',
+        'subsription' => 'Please visit Chongquing if you have any chance!',
+        'author_photo' => 'static/images/index/a2.png',
+        'author_name' => 'Yan Jing Yu',
+        'date' => 'January 18, 2024'
+    ]
+];
+
+$recent_posts = [
+    [
+        'image' => 'static/images/index/p3.png',
+        'title' => "Assembler's importancy",
+        'subscription' => 'Assembler is a great opportunity to be a straight "A" student!',
+        'author_photo' => 'static/images/index/a3.png',
+        'author_name' => 'Artem Chepurnoy',
+        'date' => '23/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p4.png',
+        'title' => "Why sleeping is important?",
+        'subscription' => 'Just sleep and everything is alright!',
+        'author_photo' => 'static/images/index/a4.png',
+        'author_name' => 'Arseniy Popov',
+        'date' => '18/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p5.png',
+        'title' => "Trip to Saint Petersburg",
+        'subscription' => "The beauty of Russia's Netherlands can't be described in words!",
+        'author_photo' => 'static/images/index/a5.png',
+        'author_name' => 'Nikolay Uskov',
+        'date' => '13/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p6.png',
+        'title' => "Through the mist",
+        'subscription' => 'Travel makes you see what a tiny place you occupy in the world.',
+        'author_photo' => 'static/images/index/a3.png',
+        'author_name' => 'Artem Chepurnoy',
+        'date' => '9/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p7.png',
+        'title' => "Awaken early",
+        'subscription' => 'Not thouse who wander are lost.',
+        'author_photo' => 'static/images/index/a5.png',
+        'author_name' => 'Nikolay Uskov',
+        'date' => '7/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p8.png',
+        'title' => "Try it Always",
+        'subscription' => 'The world is a book, and those who do not travel read only the page.',
+        'author_photo' => 'static/images/index/a5.png',
+        'author_name' => 'Nikolay Uskov',
+        'date' => '7/12/2023'
+    ]
+]
+
+?>
+
 <!DOCTYPE html>
     <head>
         <!-- Кодировка -->
@@ -58,30 +139,36 @@
             <section class="site_content__featured_posts featured_posts">
                 <h2 class="featured_posts__section_mark">Featured posts</h2>
 
-                <div class="featured_posts__content content">
-                    <!-- The Road Ahead -->
-                    <article class="content__tra tra">
-                        <h3 class="tra__header">The Road Ahead</h3>
-                        <p class="tra__subscription">The road ahead might be paved - it might not be.</p>
+                <div class="featured_posts__articles articles">
+                    <?php
+                    foreach ($featured_posts as $featured_post) {
+                        include 'featured_post_preview.php';
+                    }
+                    ?>
 
-                        <div class="tra__avatar tra_author">
+                    <!-- The Road Ahead -->
+                    <article class="articles__article tra">
+                        <div class="article__author author">
                             <img src="static/images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
-                            <p class="tra_author__subscription">Gleb Ryzhov</p>
-                            <p class="tra_author__date">August 31, 2023</p>
+                            <p class="author__subscription">Gleb Ryzhov</p>
+                            <p class="author__date">August 31, 2023</p>
                         </div>
+
+                        <p class="article__subscription">The road ahead might be paved - it might not be.</p>
+                        <h3 class="article__header">The Road Ahead</h3>
                     </article>
 
                     <!-- From Top To Down -->
-                    <article class="content__fttd fttd">
-                        <h4 class="fttd__adventure_sign">ADVENTURE</h4>
-                        <h3 class="fttd__header">From Top To Down</h3>
-                        <p class="fttd__subscription">Please visit Chongquing if you have any chance!</p>
-
-                        <div class="fttd__avatar avatar">
+                    <article class="articles__article fttd">
+                        <div class="article__author author">
                             <img src="static/images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
-                            <p class="avatar__subscription">Yan Jing Yu</p>
-                            <p class="avatar__date">January 18, 2024</p>
+                            <p class="author__subscription">Yan Jing Yu</p>
+                            <p class="author__date">January 18, 2024</p>
                         </div>
+
+                        <p class="article__subscription">Please visit Chongquing if you have any chance!</p>
+                        <h3 class="article__header">From Top To Down</h3>
+                        <h4 class="article__adventure_sign">ADVENTURE</h4>
                     </article>
                 </div>
             </section>
@@ -92,6 +179,12 @@
 
                 <!-- Статьи -->
                 <div class="recent__post post">
+                    <?php
+                    foreach ($recent_posts as $recent_post) {
+                        include 'recent_post_preview.php';
+                    }
+                    ?>
+                    
                     <!-- "Assembler's importancy" -->
                     <article class="post__asi extra_article">
                         <img src="static/images/index/p3.png" alt="Assembler's importancy" width = '720' height="360" class="extra_article__image">
