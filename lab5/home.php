@@ -2,9 +2,9 @@
 $featured_posts = [
     [
         'background_image_modifier' => 'tra',
-        'is_adventure' => False,
+        'is_adventure' => '',
         'title' => 'The Road Ahead',
-        'subsription' => 'The road ahead might be paved - it might not be.',
+        'subscription' => 'The road ahead might be paved - it might not be.',
         'author_photo' => 'static/images/index/a1.png',
         'author_name' => 'Gleb Ryzhov',
         'date' => 'August 31, 2023'
@@ -12,9 +12,9 @@ $featured_posts = [
 
     [
         'background_image_modifier' => 'fttd',
-        'is_adventure' => True,
+        'is_adventure' => '<h4 class="article__adventure_sign">ADVENTURE</h4>',
         'title' => 'From Top To Down',
-        'subsription' => 'Please visit Chongquing if you have any chance!',
+        'subscription' => 'Please visit Chongquing if you have any chance!',
         'author_photo' => 'static/images/index/a2.png',
         'author_name' => 'Yan Jing Yu',
         'date' => 'January 18, 2024'
@@ -145,31 +145,6 @@ $recent_posts = [
                         include 'featured_post_preview.php';
                     }
                     ?>
-
-                    <!-- The Road Ahead -->
-                    <article class="articles__article tra">
-                        <div class="article__author author">
-                            <img src="static/images/index/a1.png" alt="Gleb Ryzhov" width="40" height="40">
-                            <p class="author__subscription">Gleb Ryzhov</p>
-                            <p class="author__date">August 31, 2023</p>
-                        </div>
-
-                        <p class="article__subscription">The road ahead might be paved - it might not be.</p>
-                        <h3 class="article__header">The Road Ahead</h3>
-                    </article>
-
-                    <!-- From Top To Down -->
-                    <article class="articles__article fttd">
-                        <div class="article__author author">
-                            <img src="static/images/index/a2.png" alt="Yan Jing Yu" width="40" height="40">
-                            <p class="author__subscription">Yan Jing Yu</p>
-                            <p class="author__date">January 18, 2024</p>
-                        </div>
-
-                        <p class="article__subscription">Please visit Chongquing if you have any chance!</p>
-                        <h3 class="article__header">From Top To Down</h3>
-                        <h4 class="article__adventure_sign">ADVENTURE</h4>
-                    </article>
                 </div>
             </section>
 
@@ -184,120 +159,6 @@ $recent_posts = [
                         include 'recent_post_preview.php';
                     }
                     ?>
-                    
-                    <!-- "Assembler's importancy" -->
-                    <article class="post__asi extra_article">
-                        <img src="static/images/index/p3.png" alt="Assembler's importancy" width = '720' height="360" class="extra_article__image">
-
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Assembler's importancy</h3>
-                            <p class="text__subscription">Assembler is a great opportunity to be a straight "A" student!</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
-                                <p class="human__subscription">Artem Chepurnoy</p>
-                            </div>
-
-                            <p class="extra_avatar__date">23/12/2023</p>
-                        </div>
-                    </article>
-
-                    <!-- Why sleeping is important? -->
-                    <article class="post__wsii extra_article">
-                        <img src="static/images/index/p4.png" alt="Why sleeping is important?" width="720" height="360" class="extra_article__image">
-
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Why sleeping is important?</h3>
-                            <p class="text__subscription">Just sleep and everything is alright!</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a4.png" alt="Arseniy Popov" width="40" height="40">
-                                <p class="human__subscription">Arseniy Popov</p>
-                            </div>
-
-                            <p class="extra_avatar__date">18/12/2023</p>
-                        </div>
-                    </article>
-
-                    <!-- Trip to Saint Petersburg -->
-                    <article class="post__ttsp extra_article">
-                        <img src="static/images/index/p5.png" alt="Trip to Saint Petersburg" width="720" height="360" class="extra_article__image">
-
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Trip to Saint Petersburg</h3>
-                            <p class="text__subscription">The beauty of Russia's Netherlands can't be described in words!</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                                <p class="human__subscription">Nikolay Uskov</p>
-                            </div>
-
-                            <p class="extra_avatar__date">13/12/2023</p>
-                        </div>
-                    </article>
-
-                    <!-- Пока неизвестно(на сейчас из примера) -->
-                    <article class="post__ttm extra_article">
-                        <img src="static/images/index/p6.png" alt="Through the mist" width="720" height="360" class="extra_article__image">
-
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Through the mist</h3>
-                            <p class="text__subscription">Travel makes you see what a tiny place you occupy in the world.</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a3.png" alt="Artem Chepurnoy" width="40" height="40">
-                                <p class="human__subscription">Artem Chepurnoy</p>
-                            </div>
-
-                            <p class="extra_avatar__date">9/12/2023</p>
-                        </div>
-                    </article>
-
-                    <!-- Пока неизвестно(на сейчас из примера) -->
-                    <article class="post__ae extra_article">
-                        <img src="static/images/index/p7.png" alt="Awaken early" width="720" height="360" class="extra_article__image">
-
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Awaken early</h3>
-                            <p class="text__subscription">Not thouse who wander are lost.</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                                <p class="human__subscription">Nikolay Uskov</p>
-                            </div>
-
-                            <p class="extra_avatar__date">7/12/2023</p>
-                        </div>
-                    </article>
-
-                    <!-- Пока неизвестно(на сейчас из примера) -->
-                    <article class="post__tit extra_article">
-                        <img src="static/images/index/p8.png" alt="Awaken early" width="720" height="360" class="extra_article__image">
-                        
-                        <div class="extra_article__text text">
-                            <h3 class="text__header">Try it Always</h3>
-                            <p class="text__subscription">The world is a book, and those who do not travel read only the page.</p>
-                        </div>
-
-                        <div class="extra_article__extra_avatar extra_avatar">
-                            <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/index/a5.png" alt="Nikolay Uskov" width="40" height="40">
-                                <p class="human__subscription">Nikolay Uskov</p>
-                            </div>
-
-                            <p class="extra_avatar__date">7/12/2023</p>
-                        </div>
-                    </article>
                 </div>
             </section>
         </section>
