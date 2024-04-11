@@ -2,7 +2,7 @@
 $featured_posts = [
     [
         'background_image_modifier' => 'tra',
-        'is_adventure' => '',
+        'tag' => '',
         'title' => 'The Road Ahead',
         'subscription' => 'The road ahead might be paved - it might not be.',
         'author_photo' => 'static/images/index/a1.png',
@@ -12,12 +12,32 @@ $featured_posts = [
 
     [
         'background_image_modifier' => 'fttd',
-        'is_adventure' => '<h4 class="article__adventure_sign">ADVENTURE</h4>',
+        'tag' => 'ADVENTURE',
         'title' => 'From Top To Down',
         'subscription' => 'Please visit Chongquing if you have any chance!',
         'author_photo' => 'static/images/index/a2.png',
         'author_name' => 'Yan Jing Yu',
         'date' => 'January 18, 2024'
+    ],
+
+    [
+        'background_image_modifier' => 'fttd',
+        'tag' => 'ADVENTURE',
+        'title' => 'From Top To Down',
+        'subscription' => 'Please visit Chongquing if you have any chance!',
+        'author_photo' => 'static/images/index/a2.png',
+        'author_name' => 'Yan Jing Yu',
+        'date' => 'January 18, 2024'
+    ],
+
+    [
+        'background_image_modifier' => 'fttd',
+        'tag' => 'ADVENTURE',
+        'title' => 'From Top ToFrom Top To DownFrom Top To Down Down',
+        'subscription' => 'Please visit Chongquing ifFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To Down you have any chance!',
+        'author_photo' => 'static/images/index/a2.png',
+        'author_name' => 'Yan Jing From Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To DownYu',
+        'date' => 'January 18, From Top To DownFrom Top To DownFrom Top To DownFrom Top To Down2024'
     ]
 ];
 
@@ -74,6 +94,32 @@ $recent_posts = [
         'author_photo' => 'static/images/index/a5.png',
         'author_name' => 'Nikolay Uskov',
         'date' => '7/12/2023'
+    ],
+    [
+        'image' => 'static/images/index/p3.png',
+        'title' => "Assembler's importancy",
+        'subscription' => 'Assembler is a great opportunity to be a straight "A" student!',
+        'author_photo' => 'static/images/index/a3.png',
+        'author_name' => 'Artem Chepurnoy',
+        'date' => '23/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p4.png',
+        'title' => "Why sleeping is important?",
+        'subscription' => 'Just sleep and everything is alright!',
+        'author_photo' => 'static/images/index/a4.png',
+        'author_name' => 'Arseniy Popov',
+        'date' => '18/12/2023'
+    ],
+
+    [
+        'image' => 'static/images/index/p4.png',
+        'title' => "Why sleeping is From Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To Downimportant?",
+        'subscription' => 'Just sleep and From Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To Downeverything is alright!',
+        'author_photo' => 'static/images/index/a4.png',
+        'author_name' => 'Arseniy From Top To DownFrom Top To DownFrom Top To DownFrom Top To DownPopov',
+        'date' => '18/12/From Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To Down2023'
     ]
 ]
 

@@ -78,6 +78,7 @@
 
 .site_content {
     background-color: #F7F7F7;
+    padding-bottom: 90px;
 }
 
 .site_content__color_set {
@@ -101,10 +102,8 @@
 
 .site_content__featured_posts.featured_posts {
     width: 940px;
-    height: 415px;
     margin-inline: auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
@@ -121,13 +120,12 @@
 
 .featured_posts__articles.articles {
     width: 940px;
-    height: 294px;
     margin-inline: auto;
     display: flex;
     margin-top: 16px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .articles__article{
@@ -149,7 +147,6 @@
 }
 
 .article__adventure_sign{
-    display: inline-block;
     font: 400 12px/13px "Oxygen";
     background-color: #DD783F;
     color: #FFFFFF;
@@ -157,48 +154,65 @@
     border-radius: 3px;
     margin-bottom: 53px;
     max-width: 70px;
+    display: none;
+}
+
+.article__adventure_sign_visible {
+    display: inline-block;
 }
 
 .article__header {
     font: 400 27px/30px "Lora";
     color: #FFFFFF;
     margin-top: 58px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .article__subscription{
     font: 400 14px/25px "Oxygen";
     color: rgba(255, 255, 255, 0.7);
     margin-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .article__author.author {
     display: flex;
     margin-top: 12px;
     margin-bottom: 15px;
-    flex-wrap: wrap;
     align-items: center;
 }
 
 .author__subscription{
+    max-width: 96px;
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.6);
     margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .author__date {
+    max-width: 108px;
     font: 400 14px/35px "Oxygen";
     color: rgba(255, 255, 255, 0.7);
     margin-left: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .site_content__recent.recent {
     width: 940px;
-    height: 752px;
     margin-inline: auto;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .recent__section_mark{
@@ -208,14 +222,15 @@
     border-bottom: 1px solid #DEDEDE;
     padding-bottom: 17px;
     padding-left: 111px;
+    margin-top: 60px;
 }
 
 .recent__post.post {
     width: 960px;
-    height: 632px;
+    margin-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 26px;
 }
 
 .extra_article {
@@ -243,6 +258,9 @@
     color: #101315;
     margin-top: 14px;
     margin-left: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .text__subscription{
@@ -250,6 +268,8 @@
     color: #7A7A7A;
     margin-top: 6px;
     margin-left: 13px;
+    max-height: 40px;
+    overflow: hidden;
 }
 
 .extra_article__extra_avatar.extra_avatar {
@@ -276,14 +296,20 @@
     font: 400 11px/35px "Oxygen";
     color: #999999;
     margin-left: 10px;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .extra_avatar__date {
     font: 400 12px/35px "Oxygen";
     color: #999999;
-    justify-self: flex-end;
     margin-right: 13px;
-    width: 60px;
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .site_footer {

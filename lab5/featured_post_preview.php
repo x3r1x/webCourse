@@ -7,5 +7,5 @@
 
     <p class="article__subscription"><?= $featured_post['subscription'] ?></p>
     <h3 class="article__header"><?= $featured_post['title'] ?></h3>
-    <?= $featured_post['is_adventure'] ?>
+    <h4 class="article__adventure_sign <?=  $featured_post['tag'] ? 'article__adventure_sign_visible' : ''?>"><?= $featured_post['tag'] ?></h4>
 </article>
