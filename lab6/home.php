@@ -86,6 +86,7 @@ $recent_posts = [
 ];
 
 $links = ['home', 'categories', 'about', 'contact'];
+$content_links = ['nature', 'photography', 'relaxation', 'vacation', 'travel', 'adventure']
 
 ?>
 
@@ -127,7 +128,7 @@ $links = ['home', 'categories', 'about', 'contact'];
 
                 <!-- Всё, что под заголовком на фоне картинки -->
                 <p class="underheader__text">We travel the world in search of stories. Come along for the ride.</p>
-                <a href="https://www.youtube.com/watch?v=ruvFi_cqO1Q&list=RDMM623JGFAYZ3w&index=8s" class="underheader__button">View Latest Posts</a>
+                <a href="/posts" class="underheader__button">View Latest Posts</a>
             </div>
         </header>
         
@@ -137,12 +138,11 @@ $links = ['home', 'categories', 'about', 'contact'];
             <!-- Ссылки, которые сортируют тип контента -->
             <div class="site_content__color_set">
                 <nav class="site_content__content_sort content_sort">
-                    <a href="https://www.youtube.com/watch?v=-CTlz5PJRZs" class="content_sort__button">Nature</a>
-                    <a href="https://www.youtube.com/watch?v=5Q9AqFa4zQM" class="content_sort__button">Photography</a>
-                    <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" class="content_sort__button">Relaxation</a>
-                    <a href="https://www.youtube.com/watch?v=p1LchwNFSVE" class="content_sort__button">Vacation</a>
-                    <a href="https://vk.com/travelline_ru" class="content_sort__button">Travel</a>
-                    <a href="https://www.youtube.com/watch?v=QtXby3twMmI" class="content_sort__button">Adventure</a>
+                    <?php
+                        foreach ($content_links as $link) {
+                            include 'other_links/home/content_links.php';
+                        }
+                    ?>
                 </nav>
             </div>
 

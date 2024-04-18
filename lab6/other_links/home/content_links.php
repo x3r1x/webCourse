@@ -1,0 +1,1 @@
+<a class="content_sort__button" href="/home/<?= $link ?>"><?= ucfirst($link) ?></a>

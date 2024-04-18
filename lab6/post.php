@@ -31,7 +31,7 @@ $posts = [
         'title' => "Why sleeping is important?",
         'subscription' => 'Just sleep and everything is alright!',
         'image' => 'static/images/index/p4.png', 
-        'post_text' => 'I WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEPI WANNA SLEEP',
+        'post_text' => 'Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ Я ХОЧУ СПАТЬ ',
     ],
 
     [
@@ -65,7 +65,10 @@ $posts = [
         'image' => 'static/images/index/p8.png', 
         'post_text' => 'THERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICETHERE IS ALWAYS A CHOICE',
     ]
-]
+];
+
+$links = ['home', 'categories', 'about', 'contact'];
+
 ?>
 
 <!DOCTYPE html>
@@ -88,10 +91,11 @@ $posts = [
             <h3 class="tra_header__text">Escape.</h3>
 
             <ul class="tra_header__tra_menu tra_menu">
-                <li class="tra_menu__item"><a href="https://yandex.com/" class="tra_menu__button">HOME</a></li>
-                <li class="tra_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="tra_menu__button">CATEGORIES</a></li>
-                <li class="tra_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="tra_menu__button">ABOUT</a></li>
-                <li class="tra_menu__item"><a href="https://vk.com/x3r1x" class="tra_menu__button">CONTACT</a></li>
+                <?php
+                    foreach ($links as $link) {
+                        include 'other_links/post/header_links.php';
+                    }
+                ?>
             </ul>
         </header>
 
@@ -126,10 +130,11 @@ $posts = [
                 <h3 class="exit_buttons__footer_text">Escape.</h3>
 
                 <ul class="exit_buttons__nav_menu nav_menu">
-                    <li class="nav_menu__item"><a href="https://yandex.com/" class="nav_menu__footer_button">HOME</a></li>
-                    <li class="nav_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="nav_menu__footer_button">CATEGORIES</a></li>
-                    <li class="nav_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="nav_menu__footer_button">ABOUT</a></li> 
-                    <li class="nav_menu__item"><a href="https://vk.com/x3r1x" class="nav_menu__footer_button">CONTACT</a></li>
+                    <?php
+                        foreach ($links as $link) {
+                            include 'other_links/post/footer_links.php';
+                        }
+                    ?>
                 </ul>
             </article>
         </footer>
