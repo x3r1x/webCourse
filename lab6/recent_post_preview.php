@@ -15,7 +15,7 @@
         <p class="extra_avatar__date"><?= $recent_post['date'] ?></p>
     </div>
 
-    <a title='<?= $recent_post['title'] ?>' href='/post?id=<?= $recent_post['id'] ?>'>
+    <a title='<?= $recent_post['title'] ?>' href='/post.php?postId=<?= $recent_post['id'] ?>'>
         <?= $recent_post['subscription'] ?>
     </a>
 </article>

@@ -1,5 +1,5 @@
 <article class="articles__article <?= $featured_post['background_image_modifier'] ?> ">
-    <a title='<?= $featured_post['title'] ?>' href='/post?id=<?= $featured_post['id'] ?>'>
+    <a title='<?= $featured_post['title'] ?>' href='/post.php?postId=<?= $featured_post['id'] ?>'>
         <?= $featured_post['subscription'] ?>
     </a>
 

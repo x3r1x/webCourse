@@ -453,9 +453,9 @@
 }
 
 .tra_content__image {
-    background-image: url(../images/the-road-ahead/p1.png);
     height: 535px;
-    background-size: cover;
+    max-height: 535px;
+    width: 100%;
 }
 
 .tra_content__information {
