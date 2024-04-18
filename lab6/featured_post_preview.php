@@ -1,8 +1,4 @@
 <article class="articles__article <?= $featured_post['background_image_modifier'] ?> ">
-    <a title='<?= $featured_post['title'] ?>' href='/post.php?postId=<?= $featured_post['id'] ?>'>
-        <?= $featured_post['subscription'] ?>
-    </a>
-
     <div class="article__author author">
         <img src=<?= $featured_post['author_photo'] ?> alt="" width="40" height="40">
         <p class="author__subscription"><?= $featured_post['author_name'] ?></p>
@@ -10,6 +6,8 @@
     </div>
 
     <p class="article__subscription"><?= $featured_post['subscription'] ?></p>
-    <h3 class="article__header"><?= $featured_post['title'] ?></h3>
+    <a class="article__header" title='<?= $featured_post['title'] ?>' href='/post.php?postId=<?= $featured_post['id'] ?>'>
+        <?= $featured_post['title'] ?>
+    </a>
     <h4 class="article__adventure_sign <?=  $featured_post['tag'] ? 'article__adventure_sign_visible' : ''?>"><?= $featured_post['tag'] ?></h4>
 </article>

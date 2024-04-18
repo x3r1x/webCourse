@@ -2,7 +2,9 @@
     <img src=<?= $recent_post['image'] ?> alt="" width = '720' height="360" class="extra_article__image">
 
     <div class="extra_article__text text">
-        <h3 class="text__header"><?= $recent_post['title'] ?></h3>
+        <a class="text__header" title='<?= $recent_post['title'] ?>' href='/post.php?postId=<?= $recent_post['id'] ?>'>
+            <?= $recent_post['title'] ?>
+        </a>
         <p class="text__subscription"><?= $recent_post['subscription'] ?></p>
     </div>
 
@@ -14,8 +16,4 @@
 
         <p class="extra_avatar__date"><?= $recent_post['date'] ?></p>
     </div>
-
-    <a title='<?= $recent_post['title'] ?>' href='/post.php?postId=<?= $recent_post['id'] ?>'>
-        <?= $recent_post['subscription'] ?>
-    </a>
 </article>
