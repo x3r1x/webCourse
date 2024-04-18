@@ -83,7 +83,9 @@ $recent_posts = [
         'author_name' => 'Nikolay Uskov',
         'date' => '7/12/2023'
     ]
-]
+];
+
+$links = ['home', 'categories', 'about', 'contact'];
 
 ?>
 
@@ -112,10 +114,11 @@ $recent_posts = [
                 <h3 class="top__escape_text">Escape.</h3>
 
                 <ul class="site_header__escape_menu escape_menu">
-                    <li class="escape_menu__item"><a href="https://yandex.com/" class="escape_menu__button">HOME</a></li>
-                    <li class="escape_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="escape_menu__button">CATEGORIES</a></li>
-                    <li class="escape_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="escape_menu__button">ABOUT</a></li>
-                    <li class="escape_menu__item"><a href="https://vk.com/x3r1x" class="escape_menu__button">CONTACT</a></li>
+                    <?php
+                        foreach ($links as $link) {
+                            include 'other_links/home/header_links.php';
+                        }
+                    ?>
                 </ul>
             </div>
             <!-- Заголовок -->
@@ -150,7 +153,7 @@ $recent_posts = [
                 <div class="featured_posts__articles articles">
                     <?php
                     foreach ($featured_posts as $featured_post) {
-                        include 'featured_post_preview.php';
+                        include 'post_looks/featured_post_preview.php';
                     }
                     ?>
                 </div>
@@ -164,7 +167,7 @@ $recent_posts = [
                 <div class="recent__post post">
                     <?php
                     foreach ($recent_posts as $recent_post) {
-                        include 'recent_post_preview.php';
+                        include 'post_looks/recent_post_preview.php';
                     }
                     ?>
                 </div>
@@ -188,10 +191,11 @@ $recent_posts = [
                 <h3 class="exit_buttons__footer_text">Escape.</h3>
 
                 <ul class="exit_buttons__nav_menu nav_menu">
-                    <li class="nav_menu__item"><a href="https://yandex.com/" class="nav_menu__footer_button">HOME</a></li>
-                    <li class="nav_menu__item"><a href="https://www.youtube.com/channel/UCsmY_auGOPTzdwbFFNJmAlA" class="nav_menu__footer_button">CATEGORIES</a></li>
-                    <li class="nav_menu__item"><a href="https://ru.wikipedia.org/wiki/HTML" class="nav_menu__footer_button">ABOUT</a></li> 
-                    <li class="nav_menu__item"><a href="https://vk.com/x3r1x" class="nav_menu__footer_button">CONTACT</a></li>
+                    <?php
+                        foreach ($links as $link) {
+                            include 'other_links/home/footer_links.php';
+                        }
+                    ?>
                 </ul>
             </article>
         </footer>
