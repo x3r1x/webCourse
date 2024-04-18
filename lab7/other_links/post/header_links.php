@@ -1,0 +1,1 @@
+<li class="tra_menu__item"><a class="tra_menu__button" href="/<?= $link ?>"><?= mb_strtoupper($link) ?></a></li>

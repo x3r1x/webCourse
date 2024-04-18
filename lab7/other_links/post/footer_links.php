@@ -1,0 +1,1 @@
+<li class="nav_menu__item"><a class="nav_menu__footer_button" href="/<?= $link ?>"><?= mb_strtoupper($link) ?></a></li>

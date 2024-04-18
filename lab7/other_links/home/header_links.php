@@ -1,0 +1,1 @@
+<li class="ecape_menu__item"><a class="escape_menu__button" href="/<?= $link ?>"><?= mb_strtoupper($link) ?></a></li>
