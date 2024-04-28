@@ -2,7 +2,7 @@
 $featured_posts = [
     [
         'id' => 1,
-        'background_image_modifier' => 'tra',
+        'image' => 'static/images/index/p1.png', 
         'tag' => '',
         'title' => 'The Road Ahead',
         'subscription' => 'The road ahead might be paved - it might not be.',
@@ -13,7 +13,7 @@ $featured_posts = [
 
     [
         'id' => 2,
-        'background_image_modifier' => 'fttd',
+        'image' => 'static/images/index/p2.png', 
         'tag' => 'ADVENTURE',
         'title' => 'From Top To Down',
         'subscription' => 'Please visit Chongquing if you have any chance!',

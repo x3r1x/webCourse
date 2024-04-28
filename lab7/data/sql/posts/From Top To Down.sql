@@ -1,4 +1,4 @@
-INSERT INTO post (title, subscription, author_photo, author_name, date, post_text, image, featured, background_image_modifier, tag) VALUES
+INSERT INTO post (title, subscription, author_photo, author_name, date, post_text, image, featured, tag) VALUES
 (
     'From Top To Down', 
     'Please visit Chongquing if you have any chance!', 
@@ -8,6 +8,5 @@ INSERT INTO post (title, subscription, author_photo, author_name, date, post_tex
     'Idk hahahahahahahahahaahahahIdk hahahahahahahahahaahahahIdk hahahahahahahahahaahahahIdk hahahahahahahahahaahahahIdk hahahahahahahahahaahahahIdk hahahahahahahahahaahahah', 
     'static/images/index/p2.png', 
     1, 
-    'fttd', 
     'ADVENTURE'
 )
