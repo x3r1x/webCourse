@@ -1,93 +1,68 @@
 <?php
-$featured_posts = [
-    [
-        'id' => 1,
-        'image' => 'static/images/index/p1.png', 
-        'tag' => '',
-        'title' => 'The Road Ahead',
-        'subscription' => 'The road ahead might be paved - it might not be.',
-        'author_photo' => 'static/images/index/a1.png',
-        'author_name' => 'Gleb Ryzhov',
-        'date' => 'August 31, 2023'
-    ],
-
-    [
-        'id' => 2,
-        'image' => 'static/images/index/p2.png', 
-        'tag' => 'ADVENTURE',
-        'title' => 'From Top To Down',
-        'subscription' => 'Please visit Chongquing if you have any chance!',
-        'author_photo' => 'static/images/index/a2.png',
-        'author_name' => 'Yan Jing Yu',
-        'date' => 'January 18, 2024'
-    ]
-];
-
-$recent_posts = [
-    [
-        'id' => 3,
-        'image' => 'static/images/index/p3.png',
-        'title' => "Assembler's importancy",
-        'subscription' => 'Assembler is a great opportunity to be a straight "A" student!',
-        'author_photo' => 'static/images/index/a3.png',
-        'author_name' => 'Artem Chepurnoy',
-        'date' => '23/12/2023'
-    ],
-
-    [
-        'id' => 4,
-        'image' => 'static/images/index/p4.png',
-        'title' => "Why sleeping is important?",
-        'subscription' => 'Just sleep and everything is alright!',
-        'author_photo' => 'static/images/index/a4.png',
-        'author_name' => 'Arseniy Popov',
-        'date' => '18/12/2023'
-    ],
-
-    [
-        'id' => 5,
-        'image' => 'static/images/index/p5.png',
-        'title' => "Trip to Saint Petersburg",
-        'subscription' => "The beauty of Russia's Netherlands can't be described in words!",
-        'author_photo' => 'static/images/index/a5.png',
-        'author_name' => 'Nikolay Uskov',
-        'date' => '13/12/2023'
-    ],
-
-    [
-        'id' => 6,
-        'image' => 'static/images/index/p6.png',
-        'title' => "Through the mist",
-        'subscription' => 'Travel makes you see what a tiny place you occupy in the world.',
-        'author_photo' => 'static/images/index/a3.png',
-        'author_name' => 'Artem Chepurnoy',
-        'date' => '9/12/2023'
-    ],
-
-    [
-        'id' => 7,
-        'image' => 'static/images/index/p7.png',
-        'title' => "Awaken early",
-        'subscription' => 'Not thouse who wander are lost.',
-        'author_photo' => 'static/images/index/a5.png',
-        'author_name' => 'Nikolay Uskov',
-        'date' => '7/12/2023'
-    ],
-
-    [
-        'id' => 8,
-        'image' => 'static/images/index/p8.png',
-        'title' => "Try it Always",
-        'subscription' => 'The world is a book, and those who do not travel read only the page.',
-        'author_photo' => 'static/images/index/a5.png',
-        'author_name' => 'Nikolay Uskov',
-        'date' => '7/12/2023'
-    ]
-];
-
 $links = ['home', 'categories', 'about', 'contact'];
-$content_links = ['nature', 'photography', 'relaxation', 'vacation', 'travel', 'adventure']
+$content_links = ['nature', 'photography', 'relaxation', 'vacation', 'travel', 'adventure'];
 
+$featured_posts = [];
+$recent_posts = [];
+
+const HOST = 'localhost';
+const USERNAME = 'root';
+const PASSWORD = '';
+const DATABASE = 'blog';
+const PORT = '3306';
+
+function createDBConnection(): mysqli {
+    $conn = new mysqli(HOST, USERNAME, PASSWORD, DATABASE, PORT);
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
+    return $conn;
+}
+
+function closeDBConnection(mysqli $conn): void {
+    $conn->close();
+}
+
+function getFuturedPosts(&$featured, mysqli $conn): void {
+    $sql = "SELECT * FROM post WHERE featured = 1";
+    $result = $conn->query($sql);
+    while($row = $result->fetch_assoc()) {
+        $post = [
+            'id' => $row['post_id'],
+            'tag' => $row['tag'],
+            'title' => $row['title'],
+            'subscription' => $row['subscription'],
+            'author_photo' => $row['author_photo'],
+            'author_name' => $row['author_name'],
+            'date' => $row['date'],
+            'image' => $row['image']
+        ];
+        $featured[] = $post;
+    }
+}
+
+function getRecentPosts(&$recent, mysqli $conn): void {
+    $sql = "SELECT * FROM post WHERE featured = 0";
+    $result = $conn->query($sql);
+    while($row = $result->fetch_assoc()) {
+        $post = [
+            'id' => $row['post_id'],
+            'image' => $row['image'],
+            'title' => $row['title'],
+            'subscription' => $row['subscription'],
+            'author_photo' => $row['author_photo'],
+            'author_name' => $row['author_name'],
+            'date' => $row['date']
+        ];
+        $recent[] = $post;
+    }
+}
+
+
+$conn = createDBConnection();
+getFuturedPosts($featured_posts, $conn);
+getRecentPosts($recent_posts, $conn);
+closeDBConnection($conn)
 ?>
 
 <!DOCTYPE html>
@@ -134,7 +109,6 @@ $content_links = ['nature', 'photography', 'relaxation', 'vacation', 'travel', '
         
         <!-- Контент сайта -->
         <section class="site_content">
-
             <!-- Ссылки, которые сортируют тип контента -->
             <div class="site_content__color_set">
                 <nav class="site_content__content_sort content_sort">
