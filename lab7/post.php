@@ -20,7 +20,7 @@ function closeDBConnection(mysqli $conn): void {
     $conn->close();
 }
 
-function post(mysqli $conn, $id): array {
+function post(mysqli $conn, $id) {
     $sql = "SELECT * FROM post WHERE post_id = $id";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
@@ -42,10 +42,14 @@ $conn = createDBConnection();
 if (is_numeric($post_id)) {
     $post = post($conn, $post_id);
     if ($post == NULL) {
-        include 'home.php';
+        exit(
+            include 'error_page.html'
+        );
     }
 } else {
-    include 'home.php';
+    exit(
+        include 'error_page.html'
+    );
 }
 
 closeDBConnection($conn);
