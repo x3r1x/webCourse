@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+.admin-header {
+    background-color: #2E2E2E;
+    background-size: cover;
+    height: 74px;
+}
+
+.admin-header__header.header {
+    display: flex;
+    width: 1180px;
+    margin-inline: auto;
+    height: 40px;
+    padding-top: 17px;
+}
+
+.header__text.text {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.text__escape {
+    font: 400 25.72px/25.72px "Lora";
+}
+
+.text__author {
+    font: 400 17.49px/13.85px "Oxygen";
+}
