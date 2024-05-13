@@ -163,6 +163,7 @@
     font: 400 27px/30px "Lora";
     color: #FFFFFF;
     margin-top: 58px;
+    text-decoration: none;
 }
 
 .article__subscription{
@@ -351,6 +352,7 @@
 .exit_buttons__footer_text {
     font: 400 26px/26px "Lora";
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .exit_buttons__nav_menu.nav_menu {

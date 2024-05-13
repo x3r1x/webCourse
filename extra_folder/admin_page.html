@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Escape.author</title>
+</head>
+<body>
+    <header class="admin-header">
+        <div class="admin-header__text text">
+            <p class="text__escape">Escape.</p>
+            <p class="text__author">author</p>
+        </div>
+
+        <div class="admin-header__icons icons">
+            <img class="icons__avatar" src="images/admin/Avatar.png" alt="">
+            <a class="icons__escape-button" href=""><img class="icons__escape-image" src="images/admin/log-out.png" alt=""></a>
+        </div>
+    </header>
+
+    <body class="admin-main">
+        <section class="admin-main__publish publish">
+            <div class="publish__publish-text publish-text">
+                <p class="publish-text__header">New Post</p>
+                <p class="publish-text__underheader">Fill out the form bellow and publish your article</p>
+            </div>
+
+            <a class="publish__button" href="">Publish</a>
+        </section>
+
+        <section class="admin-main__main-information main-information">
+            <h1 class="main-information__header">Main Information</h1>
+
+            <div class="main-information__main-content main-content">'
+                <div class="main-content__fill-post fill-post">
+                    <p class="fill-post__title">Title</p>
+                    <input class="fill-post__title-input" id="post_title" name="title-input" placeholder="New Post">
+
+                    <p class="fill-post__description">Short description</p>
+                    <input class="fill-post__description-input" id="description" name="description_input" placeholder="Please, enter any description">
+
+                    <p class="fill-post__author-name">Author name</p>
+                    <input class="fill-post__author-name-input" id="author-name" name="author-name-input">
+
+                    <p class="fill-post__author-photo">Author Photo</p>
+                    <div class="fill-post__author-photo-field author-photo-field">
+                        <img class="author-photo-field__image" src="images/admin/photo-field.png" alt="">
+
+                        <a class="author-photo-field__upload">Upload</a>
+                    </div>
+
+                    <p class="fill-post__publish-date">Publish Date</p>
+                    <input class="fill-post__publish-date-input" id="publish-date" name="publish-date-input" placeholder="20/10/2010">
+                </div>
+
+                <div class="main-information__post-looks"></div>
+            </div>
+        </section>
+    </body>
+</body>

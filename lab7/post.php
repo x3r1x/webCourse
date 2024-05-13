@@ -59,7 +59,7 @@ closeDBConnection($conn);
     <head>
         <meta charset="UTF-8">
         <meta name="viewsport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="static/style/style.css">
+        <link rel="stylesheet" href="static/style/posts.css">
         <title><?= $post['title'] ?></title>
 
         <style>

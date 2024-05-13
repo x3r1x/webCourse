@@ -72,7 +72,7 @@ closeDBConnection($conn)
         <!-- "Ширина" сайта -->
         <meta name="viewsport" content="width=device-width, initial-scale=1.0">
         <!-- Подключение файла "style.css" -->
-        <link rel="stylesheet" href="static/style/style.css">
+        <link rel="stylesheet" href="static/style/posts.css">
         <!-- Заголовок -->
         <title>Let's do it together!</title>
 
