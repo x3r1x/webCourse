@@ -179,6 +179,10 @@
     align-items: center;
 }
 
+.author__photo {
+    border-radius: 60px;
+}
+
 .author__subscription{
     max-width: 96px;
     font: 400 14px/35px "Oxygen";
@@ -460,4 +464,5 @@
     margin-inline: auto;
     margin-top: 140px;
     margin-bottom: 135px;
+    word-break: break-all;
 }

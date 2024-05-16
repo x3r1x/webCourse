@@ -1,5 +1,4 @@
 <?php
-$data = json_decode(file_get_contents("php://input"), true);
 
 const HOST = 'localhost';
 const USERNAME = 'root';
@@ -14,7 +13,6 @@ function createDBConnection(): mysqli {
     }
     return $conn;
 }
-
 function closeDBConnection(mysqli $conn): void {
     $conn->close();
 }
@@ -24,9 +22,9 @@ function saveFile(string $file, string $data): void {
     if ($myFile) {
         $result = fwrite($myFile, $data);
         if ($result) {
-            echo 'Data has been saved succesfully';
+            echo 'Image has been saved succesfully';
         } else {
-            echo 'Troubles with saving data to file';
+            echo 'Troubles with saving Image to file';
         }
         fclose($myFile);
     } else {
@@ -51,22 +49,23 @@ function nextId(mysqli $conn): int {
 
 function saveToDB(mysqli $conn, string $title, string $subscription, string $author_photo, string $author_name, string $date, string $post_text, string $image, int $featured, string $tag) {
     $sql = "INSERT INTO post (title, subscription, author_photo, author_name, date, post_text, image, featured, tag) VALUES (
-        {$title},
-        {$subscription},
-        {$author_photo},
-        {$author_name},
-        {$date},
-        {$post_text},
-        {$image},
-        {$featured},
-        {$tag}
+        '{$title}',
+        '{$subscription}',
+        '{$author_photo}',
+        '{$author_name}',
+        '{$date}',
+        '{$post_text}',
+        '{$image}',
+        $featured,
+        '{$tag}'
     )";
-
+    $conn->query($sql);
 }
 
-function saveData(array $data, mysqli $conn): void {
+function saveData(mysqli $conn): void {
     $ok = true;
     $nextId = nextId($conn);
+    $data = json_decode(file_get_contents("php://input"), true);
 
     $title = $data['title'];
     if (empty($title) || gettype($title) != 'string') {
@@ -81,12 +80,12 @@ function saveData(array $data, mysqli $conn): void {
     }
 
     
-    $author_p = "images/index/a{$nextId}";
+    $author_photo = "images/index/a{$nextId}";
     if (empty($data['author_photo']) || gettype($data['author_photo']) != 'string') {
         echo 'There is no author avatar';
         $ok = false;
     } else {
-        $author_photo = "static/" . saveImage($data['author_photo'], $author_p);
+        $author_photo = "static/" . saveImage($data['author_photo'], $author_photo);
     }
     
 
@@ -108,17 +107,17 @@ function saveData(array $data, mysqli $conn): void {
         $ok = false;
     }
 
-    $im = "images/index/p{$nextId}";
+    $image = "images/index/p{$nextId}";
     if (empty($data['image']) || gettype($data['image']) != 'string') {
         echo 'There is not post image';
         $ok = false;
     } else {
-        $image = "static/" . saveImage($data['image'], $im);
+        $image = "static/" . saveImage($data['image'], $image);
     }
 
 
     $featured = $data['featured'];
-    if (empty($featured) || gettype($featured) != 'int') {
+    if (($featured != 1) && ($featured != 0)) {
         echo "Don't know is post featured or no";
         $ok = false;
     }
@@ -134,6 +133,5 @@ function saveData(array $data, mysqli $conn): void {
 }
 
 $conn = createDBConnection();
-saveData($data, $conn);
-closeDBConnection($conn)
-?>
+saveData($conn);
+closeDBConnection($conn);

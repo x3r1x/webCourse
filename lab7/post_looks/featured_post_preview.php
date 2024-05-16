@@ -1,6 +1,6 @@
 <article class="articles__article article" style="background-image: url(<?= $featured_post['image'] ?>);">
     <div class="article__author author">
-        <img src=<?= $featured_post['author_photo'] ?> alt="" width="40" height="40">
+        <img class="author__photo" src=<?= $featured_post['author_photo'] ?> alt="" width="40" height="40">
         <p class="author__subscription"><?= $featured_post['author_name'] ?></p>
         <p class="author__date"><?= $featured_post['date'] ?></p>
     </div>
