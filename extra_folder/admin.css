@@ -12,9 +12,11 @@
 .admin-header__header.header {
     display: flex;
     width: 1180px;
-    margin-inline: auto;
     height: 40px;
+    margin-inline: auto;
     padding-top: 17px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__text.text {
@@ -28,4 +30,57 @@
 
 .text__author {
     font: 400 17.49px/13.85px "Oxygen";
+    align-self: flex-end;
+    padding-bottom: 3px;
+}
+
+.header__icons.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons__avatar {
+    margin-right: 16px;
+}
+
+.admin-main {
+    margin-top: 64px;
+}
+
+.admin-main__publish.publish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 68px;
+    margin-inline: auto;
+}
+
+.publish__publish-text.publish-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.publish-text__header {
+    font: 400 34px/40px "Lora";
+}
+
+.publish-text__underheader {
+    font: 400 14px/20px "Oxygen";
+}
+
+.publish__button {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    font: 400 16px/24px "Oxygen";
+    border-radius: 3px;
+}
+
+.admin-main__main-information.main-information {
+    margin-top: 32px;
+    width: 1180px;
 }
