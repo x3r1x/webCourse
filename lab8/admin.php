@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style/admin.css">
+    <title>Escape.author</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    
+    <script src="static/style/admin.js" async></script>
+</head>
+<body>
+    <header class="admin-header">
+        <div class="admin-header__header header">
+            <div class="header__text text">
+                <p class="text__escape">Escape.</p>
+                <p class="text__author">author</p>
+            </div>
+
+            <div class="header__icons icons">
+                <img class="icons__avatar" src="static/images/admin/Avatar.png" alt="">
+                <a class="icons__escape-button" href=""><img class="icons__escape-image" src="static/images/admin/log-out.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="admin-main">
+        <section class="admin-main__publish publish">
+            <div class="publish__publish-text publish-text">
+                <p class="publish-text__header">New Post</p>
+                <p class="publish-text__underheader">Fill out the form bellow and publish your article</p>
+            </div>
+
+            <a class="publish__button" href="">Publish</a>
+        </section>
+
+        <section class="admin-main__main-information main-information">
+            <h1 class="main-information__header">Main Information</h1>
+
+            <div class="main-information__main-content main-content">
+                <div class="main-content__fill-post fill-post">
+                    <p class="fill-post__title">Title</p>
+                    <input class="fill-post__title-input" type="text" id="post_title" name="title-input" placeholder="New Post" oninput=change_title()>
+
+                    <p class="fill-post__description">Short description</p>
+                    <input class="fill-post__description-input" type="text" id="description" name="description_input" placeholder="Please, enter any description" oninput=change_subscription()>
+
+                    <p class="fill-post__author-name">Author name</p>
+                    <input class="fill-post__author-name-input" type="text" id="author-name" name="author-name-input" oninput=change_author_name()>
+
+                    <p class="fill-post__author-photo">Author Photo</p>
+                    <div class="fill-post__author-photo-field author-photo-field">
+                        <img class="author-photo-field__image" src="static/images/admin/photo-field.png" alt="">
+
+                        <a class="author-photo-field__upload" onclick=author_photo_click()>Upload</a>
+                    </div>
+
+                    <p class="fill-post__publish-date">Publish Date</p>
+                    <input class="fill-post__publish-date-input" type="date" id="publish-date" name="publish-date-input" value="2024-04-18" oninput=change_publish_date()>
+
+                    <p class="fill-post__hero-image">Hero Image</p>
+                    <input class="fill-post__hero-input" type="file" id="hero" name="hero-input" accept=".png, .jpeg, .gif">
+                    <p class="fill-post__hero-image-subscription">Size up to 10mb. Format: png, jpeg, gif.</p>
+
+                    <p class="fill-post__low-hero-image">Hero Image</p>
+                    <input class="fill-post__low-hero-input" type="file" id="low-hero" name="low-hero-input" accept=".png, .jpeg, .gif" onclick=upload_hero_image()>
+                    <p class="fill-post__low-hero-image-subscription">Size up to 5mb. Format: png, jpeg, gif.</p>
+                </div>
+
+
+                <div class="main-information__post-looks post-looks">
+                    <p class="post-looks__article-text">Article preview</p>
+
+                    <div class="post-looks__article-outline article-outline">
+                        <div class="article-outline__article article">
+                            <div class="article__art-top atr-top">
+                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
+                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
+                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
+                            </div>
+
+                            <div class="article__article-info article-info">
+                                <h2 class="article-info__header" id="article-info__header">New Post</h2>
+                                <p class="article-info__underheader" id="article-info__underheader">Please, enter any description</p>
+
+                                <img class="article-info__image" src="static/images/admin/article image.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-looks__post-card-text">Post card preview</p>
+
+                    <div class="post-looks__post-card post-card">
+                        <img class="post-card__image" src="static/images/admin/post card image.png" alt="">
+
+                        <div class="post-card__text text">
+                            <h3 class="text__header" id="text-header">New Post</h3>
+                            <p class="text__subscription" id="text__subscription">Please, enter any description</p>
+                        </div>
+
+                        <div class="post-card__extra_avatar extra_avatar">
+                            <div class="extra_avatar__human human">
+                                <img class="human__image" src="static/images/admin/author image.png" alt="">
+                                <p class="human__subscription" id="human__subscription">Enter author name</p>
+                            </div>
+
+                            <p class="extra_avatar__date" id="extra_avatar__date">18.04.2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-information__content content">
+            <h1 class="content__header">Content</h1>
+            <p class="content__subscription">Post content (plain text)</p>
+            <textarea class="content__input" type="text" id="content" name="content-input" placeholder="Type anything you want ..."></textarea>
+        </section>
+    </section>
+</body>

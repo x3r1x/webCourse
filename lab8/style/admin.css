@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-header {
+    background-color: #2E2E2E;
+    background-size: cover;
+    height: 74px;
+}
+
+.admin-header__header.header {
+    display: flex;
+    width: 1180px;
+    height: 40px;
+    margin-inline: auto;
+    padding-top: 17px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text.text {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.text__escape {
+    font: 400 25.72px/25.72px "Lora";
+}
+
+.text__author {
+    font: 400 17.49px/13.85px "Oxygen";
+    align-self: flex-end;
+    padding-bottom: 3px;
+}
+
+.header__icons.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons__avatar {
+    margin-right: 16px;
+}
+
+.admin-main {
+    padding-top: 64px;
+    background-color: #F7F7F7;
+    padding-bottom: 338px;
+}
+
+.admin-main__publish.publish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 68px;
+    margin-inline: auto;
+}
+
+.publish__publish-text.publish-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.publish-text__header {
+    font: 400 34px/40px "Lora";
+}
+
+.publish-text__underheader {
+    font: 400 14px/20px "Oxygen";
+}
+
+.publish__button {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #DD783F;
+    color: #FFFFFF;
+    font: 400 16px/24px "Oxygen";
+    border-radius: 3px;
+}
+
+.admin-main__main-information.main-information {
+    margin-top: 32px;
+    width: 1100px;
+    padding: 0 40px;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-information__header {
+    margin-top: 40px;
+    font: 400 27px/30px "Lora";
+}
+
+.main-information__main-content.main-content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content__fill-post.fill-post {
+    width: 640px;
+}
+
+.fill-post__title {
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__title-input {
+    margin-top: 5px;
+    width: 556px;
+    height: 40px;
+    padding-left: 4px;
+    color: #2E2E2E;
+    font: 400 16px/24px "Oxygen";
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #F7F7F7;
+}
+
+.fill-post__title-input:focus {
+    outline: none;
+}
+
+.fill-post__description {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__description-input {
+    margin-top: 5px;
+    width: 560px;
+    height: 40px;
+    padding-left: 4px;
+    color: #2E2E2E;
+    font: 400 16px/24px "Oxygen";
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #F7F7F7;
+}
+
+.fill-post__description-input:focus {
+    outline: none;
+}
+
+.fill-post__author-name {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__author-name-input {
+    margin-top: 5px;
+    width: 560px;
+    height: 40px;
+    padding-left: 4px;
+    color: #2E2E2E;
+    font: 400 16px/24px "Oxygen";
+    border: none;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.fill-post__author-name-input:focus {
+    outline: none;
+}
+
+.fill-post__author-photo {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__author-photo-field.author-photo-field {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.author-photo-field__image {
+    width: 48px;
+    height: 48px;
+}
+
+.author-photo-field__upload {
+    margin-left: 16px;
+    font: 400 16px/24px "Oxygen";
+    color: #2E2E2E;
+}
+
+.fill-post__publish-date {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__publish-date-input {
+    margin-top: 5px;
+    width: 547px;
+    height: 40px;
+    padding-left: 4px;
+    font: 400 16px/24px "Oxygen";
+    color: #2E2E2E;
+    border: none;
+    border-bottom: 1px solid #2E2E2E;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #F7F7F7;
+    padding-right: 13px;
+}
+
+.fill-post__publish-date-input:focus {
+    outline: none;
+}
+
+.fill-post__hero-image {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__hero-input {
+    margin-top: 5px;
+    width: 560px;
+    height: 160px;
+    background-image: url(../../static/images/admin/upload\ image.png);
+    color: transparent;
+}
+
+.fill-post__hero-input::file-selector-button {
+    display: none;
+}
+
+.fill-post__hero-image-subscription {
+    margin-top: 12px;
+    font: 400 12px/16px "Oxygen";
+    color: #999999;
+}
+
+.fill-post__low-hero-image {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.fill-post__low-hero-input {
+    margin-top: 5px;
+    height: 150px;
+    width: 296px;
+    background-image: url(../../static/images/admin/low\ hero\ image.png);
+    color: transparent;
+}
+
+.fill-post__low-hero-input::file-selector-button {
+    display: none;
+}
+
+.fill-post__low-hero-image-subscription {
+    margin-top: 12px;
+    font: 400 12px/16px "Oxygen";
+    color: #999999;
+    margin-bottom: 56px;
+}
+
+.main-information__post-looks.post-looks {
+    width: 440px;
+}
+
+.post-looks__article-text {
+    font: 400 14px/20px "Oxygen";
+    color: #7A7A7A;
+} 
+
+.post-looks__article-outline.article-outline {
+    margin-top: 16px;
+    width: 440px;
+    height: 385px;
+    border-radius: 30px 0 0 0;
+    border: none;
+    border-left: 1px solid #D3D3D3;
+    border-top: 1px solid #D3D3D3;
+}
+
+.article-outline__article.article {
+    margin-left: 16px;
+    margin-top: 32px;
+    height: 353px;
+    width: 421px;
+    border: none;
+    border-left: 1px solid #D3D3D3;
+    border-top: 1px solid #D3D3D3;
+    border-radius: 8px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.article__art-top.atr-top {
+    height: 23px;
+    width: 18px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atr-top__circle {
+    width: 4px;
+    height: 4px;
+}
+
+.article__article-info.article-info {
+    border-top: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-info__header {
+    margin-top: 36px;
+    font: 400 20.4px/24px "Lora";
+    color: #2E2E2E;
+}
+
+.article-info__underheader {
+    margin-top: 4px;
+    font: 400 10.2px/12px "Oxygen";
+    color: #2E2E2EA1;
+}
+
+.article-info__image {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.post-looks__post-card-text {
+    margin-top: 20px;
+    font: 400 14px/20px "Oxygen";
+    color: #7A7A7A;
+}
+
+.post-looks__post-card.post-card {
+    margin-top: 16px;
+    width: 424px;
+    height: 328px;
+    border-radius: 10px 0 0 0;
+    border: none;
+    border-left: 1px solid #D3D3D3;
+    border-top: 1px solid #D3D3D3;
+    padding-left: 16px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+}
+
+.post-card__image {
+    width: 296px;
+    height: 150px;
+}
+
+.post-card__text.text {
+    width: 296px;
+    height: 93px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.text__header{
+    font: 400 16px/21px "Lora";
+    color: #101315;
+    margin-top: 14px;
+    margin-left: 13px;
+}
+
+.text__subscription{
+    font: 400 13px/19px "Oxygen";
+    color: #7A7A7A;
+    margin-top: 6px;
+    margin-left: 13px;
+}
+
+.post-card__extra_avatar.extra_avatar {
+    width: 296px;
+    height: 48px;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extra_avatar__human.human {
+    display: flex;
+    align-items: center;
+}
+
+.human__image {
+    width: 26px;
+    height: 26px;
+    margin-left: 13px;
+}
+
+.human__subscription {
+    font: 400 11px/35px "Oxygen";
+    color: #999999;
+    margin-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.extra_avatar__date {
+    font: 400 12px/35px "Oxygen";
+    color: #999999;
+    justify-self: flex-end;
+    margin-right: 13px;
+    width: 63px;
+}
+
+.main-information__content.content {
+    margin-top: 16px;
+    width: 1140px;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header {
+    margin-top: 40px;
+    font: 400 27px/40px "Lora";
+    color: #000000;
+}
+
+.content__subscription {
+    margin-top: 40px;
+    font: 400 12px/16px "Oxygen";
+    color: #7A7A7A;
+}
+
+.content__input {
+    margin-top: 5px;
+    margin-bottom: 56px;
+    width: 940px;
+    height: 160px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    color: #2E2E2E;
+    font: 400 16px/24px "Oxygen";
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.content__input:focus {
+    outline: none;
+}
