@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewsport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/style/admin.css">
+    <link rel="stylesheet" href="style/admin.css">
     <title>Escape.author</title>
 
     <style>
@@ -11,7 +11,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
     
-    <script src="static/style/admin.js" async></script>
+    <script src="style/admin.js" async></script>
 </head>
 <body>
     <header class="admin-header">
@@ -22,8 +22,8 @@
             </div>
 
             <div class="header__icons icons">
-                <img class="icons__avatar" src="static/images/admin/Avatar.png" alt="">
-                <a class="icons__escape-button" href=""><img class="icons__escape-image" src="static/images/admin/log-out.png" alt=""></a>
+                <img class="icons__avatar" src="images/admin/Avatar.png" alt="">
+                <a class="icons__escape-button" href=""><img class="icons__escape-image" src="images/admin/log-out.png" alt=""></a>
             </div>
         </div>
     </header>
@@ -35,8 +35,13 @@
                 <p class="publish-text__underheader">Fill out the form bellow and publish your article</p>
             </div>
 
-            <a class="publish__button" href="">Publish</a>
+            <a class="publish__button" onclick=publishClick()>Publish</a>
         </section>
+
+        <div class="admin-main__div div">
+            <img class="div__image" src="" alt="">
+            <p class="div__text">Whoops! Some fields need your attention :o</p>
+        </div>
 
         <section class="admin-main__main-information main-information">
             <h1 class="main-information__header">Main Information</h1>
@@ -54,20 +59,21 @@
 
                     <p class="fill-post__author-photo">Author Photo</p>
                     <div class="fill-post__author-photo-field author-photo-field">
-                        <img class="author-photo-field__image" src="static/images/admin/photo-field.png" alt="">
+                        <img class="author-photo-field__image" src="images/admin/photo-field.png" id="author_photo" alt="">
 
-                        <a class="author-photo-field__upload" onclick=author_photo_click()>Upload</a>
+                        
+                        <a class="author-photo-field__upload">Upload</a>
                     </div>
 
                     <p class="fill-post__publish-date">Publish Date</p>
                     <input class="fill-post__publish-date-input" type="date" id="publish-date" name="publish-date-input" value="2024-04-18" oninput=change_publish_date()>
 
                     <p class="fill-post__hero-image">Hero Image</p>
-                    <input class="fill-post__hero-input" type="file" id="hero" name="hero-input" accept=".png, .jpeg, .gif">
+                    <input class="fill-post__hero-input" type="file" id="hero" name="hero-input" accept=".png, .jpeg, .gif" onchange=heroImageUpload()>
                     <p class="fill-post__hero-image-subscription">Size up to 10mb. Format: png, jpeg, gif.</p>
 
                     <p class="fill-post__low-hero-image">Hero Image</p>
-                    <input class="fill-post__low-hero-input" type="file" id="low-hero" name="low-hero-input" accept=".png, .jpeg, .gif" onclick=upload_hero_image()>
+                    <input class="fill-post__low-hero-input" type="file" id="low-hero" name="low-hero-input" accept=".png, .jpeg, .gif" onchange=lowerHeroImageUpload()>
                     <p class="fill-post__low-hero-image-subscription">Size up to 5mb. Format: png, jpeg, gif.</p>
                 </div>
 
@@ -78,16 +84,16 @@
                     <div class="post-looks__article-outline article-outline">
                         <div class="article-outline__article article">
                             <div class="article__art-top atr-top">
-                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
-                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
-                                <img class="atr-top__circle" src="static/images/admin/circle.png" alt="">
+                                <img class="atr-top__circle" src="images/admin/circle.png" alt="">
+                                <img class="atr-top__circle" src="images/admin/circle.png" alt="">
+                                <img class="atr-top__circle" src="images/admin/circle.png" alt="">
                             </div>
 
                             <div class="article__article-info article-info">
                                 <h2 class="article-info__header" id="article-info__header">New Post</h2>
                                 <p class="article-info__underheader" id="article-info__underheader">Please, enter any description</p>
 
-                                <img class="article-info__image" src="static/images/admin/article image.png" alt="">
+                                <img class="article-info__image" src="images/admin/article image.png" id="article_image" alt="">
                             </div>
                         </div>
                     </div>
@@ -95,7 +101,7 @@
                     <p class="post-looks__post-card-text">Post card preview</p>
 
                     <div class="post-looks__post-card post-card">
-                        <img class="post-card__image" src="static/images/admin/post card image.png" alt="">
+                        <img class="post-card__image" src="images/admin/post card image.png" id="hero_lower" alt="">
 
                         <div class="post-card__text text">
                             <h3 class="text__header" id="text-header">New Post</h3>
@@ -104,7 +110,7 @@
 
                         <div class="post-card__extra_avatar extra_avatar">
                             <div class="extra_avatar__human human">
-                                <img class="human__image" src="static/images/admin/author image.png" alt="">
+                                <img class="human__image" src="images/admin/author image.png" alt="">
                                 <p class="human__subscription" id="human__subscription">Enter author name</p>
                             </div>
 

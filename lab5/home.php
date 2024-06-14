@@ -23,16 +23,6 @@ $featured_posts = [
     [
         'background_image_modifier' => 'fttd',
         'tag' => 'ADVENTURE',
-        'title' => 'From Top To Down',
-        'subscription' => 'Please visit Chongquing if you have any chance!',
-        'author_photo' => 'static/images/index/a2.png',
-        'author_name' => 'Yan Jing Yu',
-        'date' => 'January 18, 2024'
-    ],
-
-    [
-        'background_image_modifier' => 'fttd',
-        'tag' => 'ADVENTURE',
         'title' => 'From Top ToFrom Top To DownFrom Top To Down Down',
         'subscription' => 'Please visit Chongquing ifFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To DownFrom Top To Down you have any chance!',
         'author_photo' => 'static/images/index/a2.png',
